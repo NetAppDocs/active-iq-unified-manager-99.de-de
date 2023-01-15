@@ -1,0 +1,34 @@
+---
+permalink: online-help/concept-performance-all-volumes-view.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die Ansicht „Performance: Alle Volumes“ zeigt eine Übersicht über die Performance-Ereignisse, Zählerdaten und Konfigurationsinformationen für jedes FlexVol Volume und jedes FlexGroup Volume, die durch eine Instanz von Unified Manager überwacht werden. So können Sie die Performance Ihrer Volumes schnell überwachen und Performance-Probleme sowie Schwellenwertereignisse beheben.' 
+---
+= Performance: Ansicht aller Volumes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Ansicht „Performance: Alle Volumes“ zeigt eine Übersicht über die Performance-Ereignisse, Zählerdaten und Konfigurationsinformationen für jedes FlexVol Volume und jedes FlexGroup Volume, die durch eine Instanz von Unified Manager überwacht werden. So können Sie die Performance Ihrer Volumes schnell überwachen und Performance-Probleme sowie Schwellenwertereignisse beheben.
+
+Standardmäßig werden Objekte auf den Ansichtsseiten nach Wichtigkeit des Ereignisses sortiert. Objekte mit kritischen Ereignissen werden zuerst aufgeführt und Objekte mit Warnmeldungen werden als zweites aufgeführt. Dies bietet eine unmittelbare visuelle Darstellung von Problemen, die behoben werden müssen.
+
+Mit den Steuerelementen oben auf der Seite können Sie eine bestimmte Ansicht auswählen (für Zustand, Leistung, Kapazität usw.). Führen Sie Suchen durch, um bestimmte Objekte zu finden, erstellen und anwenden Sie Filter, um die Liste der angezeigten Daten einzugrenzen, Spalten auf der Seite hinzuzufügen/zu entfernen/neu zu ordnen, Und exportieren Sie die Daten auf der Seite in A `.csv`, `.pdf`, Oder `.xlsx` Datei: Nachdem Sie die Seite angepasst haben, können Sie die Ergebnisse als benutzerdefinierte Ansicht speichern und anschließend einen Bericht dieser Daten erstellen und regelmäßig per E-Mail senden.
+
+Über die Schaltflächen *Performance Threshold Policy* und *Clear Performance Threshold Policy* können Sie Schwellenwertrichtlinien auf den Objektbestandsseiten zuweisen oder löschen.
+
+Wenn Sie die Latenz und den Durchsatz eines bestimmten Objekts analysieren möchten, klicken Sie auf das Symbol weiter image:../media/more-icon.gif[""], Dann *Workload analysieren* und Sie können Performance- und Kapazitätsdiagramme auf der Seite Workload-Analyse anzeigen.
+
+[NOTE]
+====
+Für Datensicherungs-Volumes (DP) werden nur Zählerwerte für den benutzergenerierten Datenverkehr angezeigt.
+
+====
+[NOTE]
+====
+Root-Volumes werden auf dieser Seite nicht angezeigt.
+
+====
+Siehe xref:reference-volume-performance-fields.adoc[Felder für die Volume-Performance] Für Beschreibungen aller Felder auf dieser Seite.

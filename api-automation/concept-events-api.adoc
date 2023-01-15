@@ -1,0 +1,70 @@
+---
+permalink: api-automation/concept-events-api.html 
+sidebar: sidebar 
+keywords:  
+summary: Mit den Ereignissen und System-APIs in der Kategorie Management-Server können Sie die Ereignisse, die für die überwachten Cluster in Ihrem Datacenter generiert werden, abrufen und die Details der Instanz in Ihrer Active IQ Unified Manager Umgebung anzeigen. 
+---
+= Anzeigen von Ereignissen und Systemdetails
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Der `events` Und `system` APIs unter `management-server` Mithilfe der Kategorie können Sie die Ereignisse abrufen, die für die überwachten Cluster in Ihrem Datacenter generiert werden, und die Instanzdetails in Ihrer Active IQ Unified Manager-Umgebung anzeigen.
+
+
+
+== Anzeigen von Ereignissen
+
+Durch Verwendung des `/management-server/events` API, Sie können die Ereignisse in Ihrem Rechenzentrum, einschließlich historischen Daten abfragen. Verwenden Sie die eingebauten Filter, z. B. Name, Aufprallgrad, Aufprallbereich, Schweregrad, Status, Ressourcenname und Ressourcentyp, um bestimmte Ereignisse anzuzeigen. Die Ressourcentyp- und Flächenparameter geben Informationen über das Speicherobjekt zurück, auf dem das Ereignis aufgetreten ist, und der Einwirkungsbereich gibt die Informationen über das Problem zurück, für das das Ereignis erhöht wird, wie z. B. Verfügbarkeit, Kapazität, Konfiguration, Sicherheit, Sicherung und Performance.
+
+Sie können die Ereignisschlüssel auch verwenden, um die Details zu einem bestimmten Ereignis abzufragen und die nächsten Vorgänge auf den Ressourcen auszuführen.
+
+[cols="4*"]
+|===
+| Kategorie | HTTP-Verb | Pfad | Beschreibung 
+
+
+ a| 
+Management-Server
+ a| 
+GET
+ a| 
+`/management-server/events`
+ a| 
+Der Antwortkörper besteht aus den Ereignisdetails der abgefragten Ereignisse in diesem Datacenter.
+
+
+
+ a| 
+Management-Server
+ a| 
+GET
+ a| 
+`+/management-server/events/{key}+`
+ a| 
+Führen Sie diese API aus, wenn Sie ein bestimmtes Ereignis abfragen möchten. Geben Sie den Ereignisschlüssel des Jobs ein, um die Details anzuzeigen. Der Antwortkörper besteht aus den Details dieses Ereignisses.
+
+|===
+
+
+== Anzeigen von Systemdetails
+
+Durch Verwendung des `/management-server/system` API, Sie können die Instanzspezifischen Details der Unified Manager-Umgebung abfragen. Die API liefert Informationen zum Produkt und zu Services, z. B. zur Version von Unified Manager, die auf Ihrem System installiert ist, UUID, Anbietername, Host OS und Name, beschreibung und Status der auf der Unified Manager-Instanz ausgeführten Services.
+
+[cols="4*"]
+|===
+| Kategorie | HTTP-Verb | Pfad | Beschreibung 
+
+
+ a| 
+Management-Server
+ a| 
+GET
+ a| 
+`/management-server/system`
+ a| 
+Für die Ausführung dieser API ist kein Eingabeparameter erforderlich. Die Systemdetails der aktuellen Unified Manager Instanz werden standardmäßig zurückgegeben.
+
+|===

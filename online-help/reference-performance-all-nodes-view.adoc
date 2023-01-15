@@ -1,0 +1,24 @@
+---
+permalink: online-help/reference-performance-all-nodes-view.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die Ansicht Performance: Alle Nodes zeigt für jeden Node, der von einer Instanz von Unified Manager überwacht wird, eine Übersicht über die Performance-Ereignisse, Daten und Konfigurationsinformationen an. So können Sie die Performance Ihrer Nodes schnell überwachen und Performance-Probleme und Schwellwerte beheben.' 
+---
+= Performance: Alle Nodes anzeigen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Ansicht Performance: Alle Nodes zeigt für jeden Node, der von einer Instanz von Unified Manager überwacht wird, eine Übersicht über die Performance-Ereignisse, Daten und Konfigurationsinformationen an. So können Sie die Performance Ihrer Nodes schnell überwachen und Performance-Probleme und Schwellwerte beheben.
+
+Standardmäßig werden Objekte auf den Ansichtsseiten nach Wichtigkeit des Ereignisses sortiert. Objekte mit kritischen Ereignissen werden zuerst aufgeführt und Objekte mit Warnmeldungen werden als zweites aufgeführt. Dies bietet eine unmittelbare visuelle Darstellung von Problemen, die behoben werden müssen.
+
+Mit den Steuerelementen oben auf der Seite können Sie eine bestimmte Ansicht auswählen (für Zustand, Leistung, Kapazität usw.). Führen Sie Suchen durch, um bestimmte Objekte zu finden, erstellen und anwenden Sie Filter, um die Liste der angezeigten Daten einzugrenzen, Spalten auf der Seite hinzuzufügen/zu entfernen/neu zu ordnen, Und exportieren Sie die Daten auf der Seite in A `.csv`, `.pdf`, Oder `.xlsx` Datei: Nachdem Sie die Seite angepasst haben, können Sie die Ergebnisse als benutzerdefinierte Ansicht speichern und anschließend einen Bericht dieser Daten erstellen und regelmäßig per E-Mail senden.
+
+Im Menü *Berichte* wird die Option *Hardware Inventory Report* zur Verfügung gestellt, wenn Unified Manager und die Cluster, die es verwaltet, an einem Standort ohne externe Netzwerkverbindung installiert sind. Mit dieser Schaltfläche wird ein erzeugt `.csv` Datei mit einer vollständigen Liste von Cluster- und Node-Informationen, wie z. B. Telefonnummern für Hardware-Modelle, Seriennummern, Festplattentypen und Anzahl, installierte Lizenzen und mehr Diese Berichtsfunktion ist hilfreich zur Vertragsverlängerung innerhalb sicherer Standorte, die nicht mit der NetApp Active IQ Plattform verbunden sind.
+
+Über die Schaltflächen *Performance Threshold Policy* und *Clear Performance Threshold Policy* können Sie Schwellenwertrichtlinien auf den Objektbestandsseiten zuweisen oder löschen.
+
+Siehe xref:reference-node-performance-fields.adoc[Felder für die Node-Performance] Für Beschreibungen aller Felder auf dieser Seite.

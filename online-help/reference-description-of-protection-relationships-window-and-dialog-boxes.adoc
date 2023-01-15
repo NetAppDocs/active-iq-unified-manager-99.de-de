@@ -1,0 +1,14 @@
+---
+permalink: online-help/reference-description-of-protection-relationships-window-and-dialog-boxes.html 
+sidebar: sidebar 
+keywords:  
+summary: Sie können Sicherungsdetails wie Ressourcen-Pools, SVM-Zuordnungen und Sicherungsjobs anzeigen und managen. Über die entsprechende Seite „Health Schwellen“ können Sie globale Grenzwerte für den Systemzustand für Aggregate, Volumes und Beziehungen konfigurieren. 
+---
+= Beschreibung der Fenster und Dialogfelder zu Sicherungsbeziehungen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können Sicherungsdetails wie Ressourcen-Pools, SVM-Zuordnungen und Sicherungsjobs anzeigen und managen. Über die entsprechende Seite „Health Schwellen“ können Sie globale Grenzwerte für den Systemzustand für Aggregate, Volumes und Beziehungen konfigurieren.

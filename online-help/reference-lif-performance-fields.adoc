@@ -1,0 +1,68 @@
+---
+permalink: online-help/reference-lif-performance-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die folgenden Felder stehen in der Ansicht Leistung: Alle Netzwerkschnittstellen zur Verfügung und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.' 
+---
+= Felder für die Netzwerkschnittstelle-Leistung
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die folgenden Felder stehen in der Ansicht Leistung: Alle Netzwerkschnittstellen zur Verfügung und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.
+
+* *Status*
++
+Ein gesundes Objekt ohne aktive Ereignisse zeigt ein grünes Häkchen-Symbol (image:../media/sev-normal-um60.png["Symbol für den Schweregrad „Ereignis“ – „Normal“"]). Wenn das Objekt über ein aktives Ereignis verfügt, identifiziert das Symbol für die Ereignisanzeige den Schweregrad: Kritische Ereignisse sind rot (image:../media/sev-critical-um60.png["Symbol für den Schweregrad „Ereignis“ – „kritisch“"]Die Fehlerereignisse sind orange (image:../media/sev-error-um60.png["Symbol für den Schweregrad „Ereignis“: Fehler"]), und Warnereignisse sind gelb (image:../media/sev-warning-um60.png["Symbol für den Schweregrad „Ereignis“ – Warnung"]).
+
+* *Netzwerkschnittstelle*
++
+Sie können auf den Namen der Netzwerkschnittstelle (LIF) klicken, um zur Seite mit den Performance-Details dieses LIF zu navigieren.
+
+* *Typ*
++
+Schnittstellentyp: Netzwerk (iSCSI, NFS, CIFS), FCP oder NVMf FC.
+
+* *Latenz*
++
+Die durchschnittliche Reaktionszeit aller I/O-Anforderungen, ausgedrückt in Millisekunden pro Vorgang Die Latenz gilt nicht für NFS LIFs und CIFS LIFs und wird für diese Typen als K. A. angezeigt.
+
+* *IOPS*
++
+Die ein-/Ausgangsvorgänge pro Sekunde. IOPS gelten nicht für NFS LIFs und CIFS LIFs und wird für diese Typen als „k. A.“ angezeigt.
+
+* *MB/s*
++
+Der Durchsatz auf der Schnittstelle, gemessen in Megabyte pro Sekunde.
+
+* * Cluster*
++
+Der Cluster, zu dem die Schnittstelle gehört. Sie können auf den Namen des Clusters klicken, um zur Detailseite des Clusters zu navigieren.
+
+* *Cluster-FQDN*
++
+Der vollständig qualifizierte Domänenname (FQDN) des Clusters.
+
+* *SVM*
++
+Die Storage Virtual Machine, zu der die Schnittstelle gehört. Sie können auf den SVM-Namen klicken, um zur Detailseite dieser SVM zu navigieren.
+
+* *Lage Zu Hause*
++
+Der Startort für die Schnittstelle, angezeigt als Knotenname und Portname, getrennt durch einen Doppelpunkt (:). Wenn die Position mit Ellipsen (...) angezeigt wird, können Sie den Cursor über den Ortsnamen positionieren, um die vollständige Position anzuzeigen.
+
+* *Aktuelle Position*
++
+Der aktuelle Speicherort für die Schnittstelle, angezeigt als Knotenname und Portname, getrennt durch einen Doppelpunkt (:). Wenn die Position mit Ellipsen (...) angezeigt wird, können Sie den Cursor über den Ortsnamen positionieren, um die vollständige Position anzuzeigen.
+
+* * Rolle*
++
+Die Schnittstellenrolle Daten, Cluster, Knoten-Management oder Intercluster.
+
+* *Grenzwertrichtlinie*
++
+Die benutzerdefinierte Performance-Schwellenwertrichtlinie, die für dieses Storage-Objekt aktiv ist, oder Richtlinien. Sie können den Cursor über Richtliniennamen mit Ellipsen (...) positionieren, um den vollständigen Richtliniennamen oder die Liste der zugewiesenen Richtliniennamen anzuzeigen. Die Schaltflächen *Performance Threshold Policy* und *Clear Performance Threshold Policy* bleiben deaktiviert, bis Sie ein oder mehrere Objekte auswählen, indem Sie auf die Kontrollkästchen ganz links klicken.
+
+

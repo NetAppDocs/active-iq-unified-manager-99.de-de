@@ -1,0 +1,14 @@
+---
+permalink: online-help/concept-executing-protection-workflows-using-wfa.html 
+sidebar: sidebar 
+keywords:  
+summary: Die Integration von OnCommand Workflow Automation in Unified Manager ermöglicht die Ausführung von Workflows für die Überwachung und das Management von Datensicherungsbeziehungen. 
+---
+= Ausführen von Sicherungs-Workflows mithilfe von OnCommand Workflow Automation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Integration von OnCommand Workflow Automation in Unified Manager ermöglicht die Ausführung von Workflows für die Überwachung und das Management von Datensicherungsbeziehungen.

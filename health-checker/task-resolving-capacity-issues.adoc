@@ -1,0 +1,47 @@
+---
+permalink: health-checker/task-resolving-capacity-issues.html 
+sidebar: sidebar 
+keywords:  
+summary: Dieser Workflow bietet ein Beispiel dafür, wie Sie ein Kapazitätsproblem lösen können. In diesem Szenario greifen Sie als Administrator oder Operator auf die Seite Unified Manager Dashboard zu, um zu ermitteln, ob eines der überwachten Speicherobjekte Kapazitätsprobleme haben. Sie möchten die mögliche Ursache und Lösung des Problems ermitteln. 
+---
+= Behebung von Kapazitätsproblemen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dieser Workflow bietet ein Beispiel dafür, wie Sie ein Kapazitätsproblem lösen können. In diesem Szenario greifen Sie als Administrator oder Operator auf die Seite Unified ManagerDashboard zu, um zu sehen, ob eines der überwachten Speicherobjekte Kapazitätsprobleme haben. Sie möchten die mögliche Ursache und Lösung des Problems ermitteln.
+
+
+
+== Bevor Sie beginnen
+
+Sie müssen über die Rolle „Operator“, „Application Administrator“ oder „Storage Administrator“ verfügen.
+
+
+
+== Über diese Aufgabe
+
+Auf der Dashboard-Seite suchen Sie im Kapazitätsbereich unter der Dropdown-Liste Ereignisse ein Fehlerereignis „`Volume Space Full`“.
+
+
+
+== Schritte
+
+. Klicken Sie im Bereich *Kapazität* der Seite *Dashboard* auf den Namen des Fehlerereignisses Volume Space Full.
++
+Die Seite Ereignisdetails für den Fehler wird angezeigt.
+
+. Auf der Seite *Event* Details können Sie eine oder mehrere der folgenden Aufgaben ausführen:
++
+** Überprüfen Sie die Fehlermeldung im Feld Ursache, und klicken Sie auf die Vorschläge unter vorgeschlagene Korrekturmaßnahmen, um Beschreibungen möglicher Korrekturmaßnahmen zu prüfen. xref:task-performing-suggested-remedial-actions-for-a-full-volume.adoc[Durchführung von vorgeschlagenen Abhilfemaßnahmen für ein vollständiges Volumen]
+** Klicken Sie im Feld Quelle auf den Objektnamen, in diesem Fall ein Volume, um Details zum Objekt anzuzeigen. xref:reference-health-volume-details-page.adoc[Einzelheiten zu den Volumes]
+** Suchen Sie nach Notizen, die zu diesem Event hinzugefügt wurden. xref:task-adding-and-reviewing-notes-about-an-event.adoc[Hinzufügen und Prüfen von Notizen zu einem Ereignis]
+** Fügen Sie dem Ereignis eine Notiz hinzu. xref:task-adding-and-reviewing-notes-about-an-event.adoc[Hinzufügen und Prüfen von Notizen zu einem Ereignis]
+** Das Ereignis einem anderen Benutzer zuweisen. xref:task-assigning-events-to-specific-users.adoc[Ereignisse werden zugewiesen]
+** Bestätigen Sie das Ereignis. xref:task-acknowledging-and-resolving-events.adoc[Bestätigen und Beheben von Ereignissen]
+** Markieren Sie das Ereignis als erledigt. xref:task-acknowledging-and-resolving-events.adoc[Bestätigen und Beheben von Ereignissen]
+
+
+

@@ -1,0 +1,32 @@
+---
+permalink: health-checker/reference-configuring-ontap-cluster.html 
+sidebar: sidebar 
+keywords: NetApp Snapshot backup for Windows,configuring ONTAP cluster 
+summary: Bevor Sie Active IQ Unified Manager für Snapshot Backup und Restore für Windows konfigurieren, sollten Sie einige Vorkonfigurationen für ONTAP und Windows Host Machine durchführen. 
+---
+= ONTAP-Cluster wird konfiguriert
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Bevor Sie Active IQ Unified Manager für Snapshot Backup und Restore für Windows konfigurieren, sollten Sie einige Vorkonfigurationen für ONTAP und Windows Host Machine durchführen.
+
+Sie können das ONTAP Cluster entweder mit der Eingabeaufforderung oder der Benutzeroberfläche von System Manager konfigurieren. Die Konfiguration des ONTAP Clusters umfasst die Konfiguration von Daten-LIFs, die der Storage-VM als iSCSI LIFs zugewiesen werden können. Im nächsten Schritt werden Sie eine iSCSI-fähige Storage-VM mithilfe der Benutzeroberfläche von System Manager konfigurieren. Sie müssen eine statische Netzwerkroute für diese Storage-VM konfigurieren, um zu steuern, wie LIFs das Netzwerk für Outbound-Datenverkehr verwenden.
+
+[NOTE]
+====
+Sie sollten über ein dediziertes Volume und eine LUN für die Sicherungskonfiguration verfügen. Das ausgewählte Volume sollte nur eine LUN enthalten. Die LUN-Größe sollte mindestens die doppelte Datenmenge sein, die voraussichtlich von Active IQ Unified Manager verarbeitet werden soll.
+
+====
+Sie müssen folgende Konfiguration durchführen:
+
+. Konfigurieren Sie eine iSCSI-fähige Storage-VM oder verwenden Sie eine vorhandene Storage-VM mit derselben Konfiguration.
+. Konfigurieren Sie eine Netzwerkroute für die konfigurierte Storage-VM.
+. Konfigurieren Sie ein Volume mit entsprechender Kapazität und eine einzelne LUN darin, damit das Volume nur für diese LUN reserviert ist.
+. Konfigurieren Sie eine Initiatorgruppe in der Storage-VM.
+. Konfigurieren Sie einen Portsatz.
+. Integrieren der Initiatorgruppe in das Portset
+. Ordnen Sie die LUN der Initiatorgruppe zu.
+

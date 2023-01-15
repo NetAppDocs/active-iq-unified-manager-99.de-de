@@ -1,0 +1,34 @@
+---
+permalink: online-help/reference-add-cluster-dialog-box.html 
+sidebar: sidebar 
+keywords:  
+summary: Sie können ein vorhandenes Cluster hinzufügen, sodass Sie das Cluster überwachen und Informationen zu dessen Zustand, Kapazität, Konfiguration und Performance erhalten können. 
+---
+= Dialogfeld Cluster hinzufügen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können ein vorhandenes Cluster hinzufügen, sodass Sie das Cluster überwachen und Informationen zu dessen Zustand, Kapazität, Konfiguration und Performance erhalten können.
+
+Sie können einen Cluster hinzufügen, indem Sie die folgenden Werte angeben:
+
+* *Hostname oder IP-Adresse*
++
+Ermöglicht Ihnen die Angabe des Host-Namens (bevorzugte) oder der IP-Adresse (IPv4 oder IPv6) der Cluster-Management-LIF, die zum Herstellen einer Verbindung zum Cluster verwendet wird. Durch die Angabe des Host-Namens können Sie den Namen des Clusters über die Web-Benutzeroberfläche abstimmen, anstatt zu versuchen, eine IP-Adresse auf einer Seite mit einem Hostnamen auf einer anderen Seite zu korrelieren.
+
+* *Benutzername*
++
+Ermöglicht Ihnen, einen Benutzernamen anzugeben, der zum Anmelden beim Cluster verwendet werden kann.
+
+* *Passwort*
++
+Ermöglicht Ihnen die Angabe eines Passworts für den angegebenen Benutzernamen.
+
+* *Port*
++
+Ermöglicht Ihnen, die Portnummer anzugeben, die zum Herstellen der Verbindung mit dem Cluster verwendet wird. Der Standardport ist 443 für HTTPS.
+
+

@@ -1,0 +1,47 @@
+---
+permalink: online-help/task-monitoring-storage-vms-using-relationships-page.html 
+sidebar: sidebar 
+keywords: Relationships page,monitor storage VMs 
+summary: Sie können Ihre Disaster-Recovery-Beziehungen für Storage-VMs von der Seite „Beziehungen“ im ABSCHNITT „SCHUTZ“ des BESTANDS aus überwachen. Standardmäßig werden auf der Seite „Beziehungen“ nur die Beziehungen auf der obersten Ebene aufgeführt, wenn der Filter „Bestandbeziehungen“ angewendet wird. 
+---
+= Überwachung von Storage VMs mithilfe der Seite „Beziehungen“
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können Ihre Disaster-Recovery-Beziehungen für Storage-VMs von der Seite „Beziehungen“ im ABSCHNITT „SCHUTZ“ des BESTANDS aus überwachen. Standardmäßig werden auf der Seite „Beziehungen“ nur die Beziehungen auf der obersten Ebene aufgeführt, wenn der Filter „Bestandbeziehungen“ angewendet wird.
+
+
+
+== Bevor Sie beginnen
+
+Sie müssen über die Rolle „Anwendungsadministrator“ oder „Speicheradministrator“ verfügen.
+
+
+
+== Über diese Aufgabe
+
+Mithilfe von Filtern können Sie die Disaster-Recovery-Beziehungen zwischen Storage-VMs anzeigen.
+
+
+
+== Schritte
+
+. Klicken Sie im linken Navigationsbereich auf *SCHUTZ* > *Beziehungen*.
++
+Auf der Seite werden alle Arten von Beziehungen angezeigt: Volume- und Storage-VM-Beziehungen.
+
+. Klicken Sie auf *Filter* und wählen Sie dann *Relationship Object Type* und *Storage VM* aus, um nur Disaster Recovery-Beziehungen zu Storage VM anzuzeigen.
+. Klicken Sie Auf *Filter Anwenden*.
++
+[NOTE]
+====
+Sie sollten den Filter für konstituierende Beziehungen löschen, um alle Sicherungsbeziehungen anzuzeigen.
+
+====
++
+Auf der Seite werden nur Disaster-Recovery-Beziehungen für Storage-VMs angezeigt.
+
+

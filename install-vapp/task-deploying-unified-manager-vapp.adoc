@@ -1,0 +1,52 @@
+---
+permalink: install-vapp/task-deploying-unified-manager-vapp.html 
+sidebar: sidebar 
+keywords:  
+summary: Die Bereitstellung von Unified Manager umfasst das Herunterladen von Software, die Bereitstellung der virtuellen Appliance, das Erstellen eines Benutzernamens und Kennworts für die Wartung und das Durchführen der ersten Einrichtung in der Web-Benutzeroberfläche. 
+---
+= Einführung Von Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Bereitstellung von Unified Manager umfasst das Herunterladen von Software, die Bereitstellung der virtuellen Appliance, das Erstellen eines Benutzernamens und Kennworts für die Wartung und das Durchführen der ersten Einrichtung in der Web-Benutzeroberfläche.
+
+
+
+== Bevor Sie beginnen
+
+* Sie sollten die Systemanforderungen für die Implementierung überprüfen und vervollständigen.
++
+xref:concept-requirements-for-installing-unified-manager.adoc[Systemanforderungen]
+
+* Stellen Sie sicher, dass Sie die folgenden Informationen haben:
++
+** Anmeldedaten für die NetApp Support-Website
+** Anmeldeinformationen für den Zugriff auf VMware vCenter Server und vSphere Web Client
+** IP-Adresse des ESXi-Servers, auf dem Sie die virtuelle Unified Manager-Appliance bereitstellen
+** Details zum Datacenter, z. B. Speicherplatz im Datenspeicher und Speicheranforderungen
+** IPv6 sollte auf dem Host aktiviert sein, wenn Sie IPv6-Adressen verwenden möchten.
+
+
+
+
+
+
+== Über diese Aufgabe
+
+Sie können Unified Manager als virtuelle Appliance auf einem VMware ESXi Server bereitstellen.
+
+Sie sollten über die VMware Konsole auf die Wartungskonsole zugreifen, nicht über SSH.
+
+[NOTE]
+====
+Ab Unified Manager 9.8 wurden VMware Tools durch Open VM Tools ersetzt  `open-vm-tools`). Sie müssen VMware Tools nicht mehr als Teil der Installation installieren, denn `open-vm-tools` Ist im Unified Manager-Installationspaket enthalten.
+
+====
+
+
+== Nachdem Sie fertig sind
+
+Nachdem Sie die Implementierung und das Setup abgeschlossen haben, können Sie entweder Cluster hinzufügen oder zusätzliche Netzwerkeinstellungen in der Wartungskonsole konfigurieren und anschließend auf die Web-Benutzeroberfläche zugreifen.

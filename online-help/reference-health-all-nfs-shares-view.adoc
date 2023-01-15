@@ -1,0 +1,22 @@
+---
+permalink: online-help/reference-health-all-nfs-shares-view.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Systemzustand: Alle NFS-Freigaben zeigen Informationen über NFS-Freigaben an, z. B. ihren Status, den mit dem Volume \ (FlexGroup Volumes oder FlexVol Volumes\) verknüpften Pfad, die Zugriffsebenen von Clients auf die NFS-Freigaben und die für die exportierten Volumes definierte Exportrichtlinie.' 
+---
+= Gesundheit: Ansicht aller NFS-Freigaben
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Systemzustand: Alle NFS-Freigaben zeigen Informationen über NFS-Freigaben an, z. B. ihren Status, den mit dem Volume verknüpften Pfad (FlexGroup Volumes oder FlexVol Volumes), die Zugriffsebenen von Clients auf die NFS-Freigaben und die für die exportierten Volumes definierte Exportrichtlinie.
+
+Standardmäßig werden Objekte auf dieser Seite nach Status sortiert. Objekte mit Fehlern werden zuerst aufgeführt, und Objekte mit normalem Status werden als Nächstes aufgeführt. Dies bietet eine unmittelbare visuelle Darstellung von Problemen, die behoben werden müssen.
+
+Mit den Steuerelementen oben auf der Seite können Sie eine bestimmte Ansicht auswählen (für Zustand, Leistung, Kapazität usw.). Führen Sie Suchen durch, um bestimmte Objekte zu finden, erstellen und anwenden Sie Filter, um die Liste der angezeigten Daten einzugrenzen, Spalten auf der Seite hinzuzufügen/zu entfernen/neu zu ordnen, Und exportieren Sie die Daten auf der Seite in A `.csv`, `.pdf`, Oder `.xlsx` Datei: Nachdem Sie die Seite angepasst haben, können Sie die Ergebnisse als benutzerdefinierte Ansicht speichern und anschließend einen Bericht dieser Daten erstellen und regelmäßig per E-Mail senden.
+
+Wenn Sie die Latenz und den Durchsatz eines bestimmten Objekts analysieren möchten, klicken Sie auf das Symbol weiter image:../media/more-icon.gif[""], Dann *Workload analysieren* und Sie können Performance- und Kapazitätsdiagramme auf der Seite Workload-Analyse anzeigen.
+
+Siehe xref:reference-nfs-shares-health-fields.adoc[NFS teilt die Gesundheitsfelder] Für Beschreibungen aller Felder auf dieser Seite.

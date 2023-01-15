@@ -1,0 +1,20 @@
+---
+permalink: online-help/reference-performance-qos-policy-groups-view.html 
+sidebar: sidebar 
+keywords:  
+summary: In der Ansicht QoS Policy Groups werden die QoS-Richtliniengruppen angezeigt, die auf den Clustern verfügbar sind, die von Unified Manager überwacht werden. Dazu gehören herkömmliche QoS-Richtlinien, anpassungsfähige QoS-Richtlinien und QoS-Richtlinien, die durch Performance-Service-Level zugewiesen werden. 
+---
+= Performance: Ansicht QoS-Richtliniengruppen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+In der Ansicht QoS Policy Groups werden die QoS-Richtliniengruppen angezeigt, die auf den Clustern verfügbar sind, die von Unified Manager überwacht werden. Dazu gehören herkömmliche QoS-Richtlinien, anpassungsfähige QoS-Richtlinien und QoS-Richtlinien, die durch Performance-Service-Level zugewiesen werden.
+
+Mit den Steuerelementen oben auf der Seite können Sie je nach Art der QoS-Richtlinie, die Sie interessieren, eine bestimmte Ansicht auswählen, Suchen durchführen, um bestimmte Objekte zu finden, Filter zu erstellen und anzuwenden, um die Liste der angezeigten Daten einzugrenzen, Spalten auf der Seite hinzuzufügen/zu entfernen/neu zu ordnen, Und exportieren Sie die Daten auf der Seite in A `.csv` Oder `.pdf` Datei:
+
+Nachdem Sie die Seite angepasst haben, können Sie die Ergebnisse als benutzerdefinierte Ansicht speichern und anschließend einen Bericht dieser Daten erstellen und regelmäßig per E-Mail senden.
+
+Siehe xref:reference-qos-policy-group-fields.adoc[Felder für QoS-Richtliniengruppe] Für Beschreibungen aller Felder auf dieser Seite.

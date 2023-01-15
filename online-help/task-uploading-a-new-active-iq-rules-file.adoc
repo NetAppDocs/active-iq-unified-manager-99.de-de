@@ -1,0 +1,48 @@
+---
+permalink: online-help/task-uploading-a-new-active-iq-rules-file.html 
+sidebar: sidebar 
+keywords: Active IQ,rules file 
+summary: Unified Manager prüft automatisch auf eine neue Active IQ-Regeldatei und lädt eine neue Datei herunter, wenn neuere Regeln vorliegen. In Sites ohne externen Netzwerkzugriff müssen Sie die Regeldatei jedoch manuell hochladen. 
+---
+= Eine neue Datei für Active IQ-Regeln wird hochgeladen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager prüft automatisch auf eine neue Active IQ-Regeldatei und lädt eine neue Datei herunter, wenn neuere Regeln vorliegen. In Sites ohne externen Netzwerkzugriff müssen Sie die Regeldatei jedoch manuell hochladen.
+
+
+
+== Bevor Sie beginnen
+
+* Die Active IQ-Ereignisberichterstellung muss aktiviert sein.
+* Sie müssen die Regeldatei von der NetApp Support-Website herunterladen.
+
+
+
+
+== Über diese Aufgabe
+
+Es wird empfohlen, etwa einmal pro Monat eine neue Regeldatei herunterzuladen, um sicherzustellen, dass Ihre Speichersysteme geschützt sind und dass sie optimal ausgeführt werden. Die Regeldatei befindet sich unter: http://mysupport.netapp.com/NOW/public/unified_manager/bin/secure_rules.zip[]
+
+
+
+== Schritte
+
+. Navigieren Sie bei einem Computer mit Netzwerkzugriff auf die NetApp Support Site, und laden Sie die aktuellen Regeln herunter `.zip` Datei:
+. Übertragen Sie die Regeldatei auf einige Medien, die Sie in den sicheren Bereich bringen können, und kopieren Sie sie dann in ein System im sicheren Bereich.
+. Klicken Sie im linken Navigationsbereich auf *Storage-Management* > *Event-Setup*.
+. Klicken Sie auf der Seite *Event Setup* auf die Schaltfläche *Regeln hochladen*.
+. Navigieren Sie im Dialogfeld *Regeln hochladen* zu den Regeln und wählen Sie diese aus `.zip` Datei, die Sie heruntergeladen haben, und klicken Sie auf *Upload*.
++
+Dieser Vorgang kann einige Minuten dauern.
+
+
+
+
+
+== Ergebnisse
+
+Die Regeldatei wird auf dem Unified Manager-Server entpackt. Nachdem die gemanagten Cluster nach Mitternacht eine AutoSupport-Datei generiert haben, überprüft Unified Manager die Cluster anhand der Regeldatei und generiert bei Bedarf neue Risiken und Vorfälle.

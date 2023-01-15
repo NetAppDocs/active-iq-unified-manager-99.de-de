@@ -1,0 +1,113 @@
+---
+permalink: reporting/task-creating-a-report-to-view-aggregate-capacity-charts.html 
+sidebar: sidebar 
+keywords:  
+summary: Sie können einen Bericht erstellen, um die Gesamtspeicherkapazität und die Kapazität in einem Excel-Diagrammformat zu analysieren. 
+---
+= Erstellen eines Berichts zur Anzeige der insgesamt im Vergleich zu den verfügbaren Kapazitätsdiagrammen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können einen Bericht erstellen, um die Gesamtspeicherkapazität und die Kapazität in einem Excel-Diagrammformat zu analysieren.
+
+
+
+== Bevor Sie beginnen
+
+* Sie müssen über die Rolle „Anwendungsadministrator“ oder „Speicheradministrator“ verfügen.
+
+
+
+
+== Über diese Aufgabe
+
+Gehen Sie wie folgt vor, um eine Integritätsansicht zu öffnen: Alle Aggregate, laden Sie die Ansicht in Excel herunter, erstellen Sie ein Diagramm mit der Gesamt- und der zugesagt Kapazität, laden Sie die angepasste Excel-Datei hoch und planen Sie den Abschlussbericht.
+
+
+
+== Schritte
+
+. Klicken Sie im linken Navigationsbereich auf *Storage* > *Aggregate*.
+. Wählen Sie *Berichte* > *Excel Herunterladen*.
++
+image::../media/download-excel-menu.png[Excel-Menü herunterladen]
+
++
+Je nach Browser müssen Sie möglicherweise auf *OK* klicken, um die Datei zu speichern.
+
+. Öffnen Sie in Excel die heruntergeladene Datei.
+. Klicken Sie bei Bedarf auf *Bearbeiten aktivieren*.
+. Auf dem `data` Klicken Sie mit der rechten Maustaste auf das `Type` Spalte und wählen Sie *Sortieren* > *Sortieren Von A bis Z*.
++
+image::../media/sort-01.png[Sortieren Sie 01]
+
++
+Damit werden Ihre Daten nach Storage-Typ angeordnet. Dies umfasst beispielsweise:
+
++
+** HDD
+** Hybrid
+** SSD
+** SSD (FabricPool)
+
+
+. Wählen Sie die aus `Type`, `Total Data Capacity`, und `Available Data Capacity` Spalten.
+. Wählen Sie im Menü * Einfügen* die Option A aus ``3-D column``Diagramm.
++
+Das Diagramm wird auf dem angezeigt `data` Tabelle:
+
++
+image::../media/threed-column-01.png[Dreifach Spalte 01]
+
+. Klicken Sie mit der rechten Maustaste auf das Diagramm und wählen Sie *Diagramm verschieben*.
+. Wählen Sie *Neues Blatt* und benennen Sie das Blatt *Gesamtspeicherdiagramme*.
++
+[NOTE]
+====
+Stellen Sie sicher, dass das neue Blatt nach dem angezeigt wird `info` Und `data` Blätter.
+
+====
+. Name des Diagrammtitels *Gesamt im Vergleich zur verfügbaren Kapazität*.
+. Mit den Menüs *Design* und *Format*, die verfügbar sind, wenn das Diagramm ausgewählt ist, können Sie das Aussehen des Diagramms anpassen.
+. Wenn Sie zufrieden sind, speichern Sie die Datei mit Ihren Änderungen. Ändern Sie nicht den Dateinamen oder den Speicherort.
++
+image::../media/total-vs-available-capacity.png[Vs. Verfügbare Kapazität insgesamt]
+
+. Wählen Sie in Unified Manager die Option *Berichte* > *Excel hochladen* aus.
++
+[NOTE]
+====
+Stellen Sie sicher, dass Sie sich in der gleichen Ansicht befinden, in der Sie die Excel-Datei heruntergeladen haben.
+
+====
+. Wählen Sie die Excel-Datei aus, die Sie geändert haben.
+. Klicken Sie Auf *Offen*.
+. Klicken Sie Auf *Absenden*.
++
+Neben dem Menüpunkt *Berichte* > *Excel hochladen* wird ein Häkchen angezeigt.
+
++
+image::../media/upload-excel.png[Laden Sie Excel hoch]
+
+. Klicken Sie Auf *Geplante Berichte*.
+. Klicken Sie auf *Zeitplan hinzufügen*, um der Seite *Berichtspläne* eine neue Zeile hinzuzufügen, damit Sie die Terminplaneigenschaften für den neuen Bericht definieren können.
++
+[NOTE]
+====
+Wählen Sie das Format *XLSX* für den Bericht aus.
+
+====
+. Geben Sie einen Namen für den Berichtsplan ein, und füllen Sie die anderen Berichtsfelder aus, und klicken Sie dann auf das Häkchen (image:../media/blue-check.gif[""]Am Ende der Reihe.
++
+Der Bericht wird sofort als Test gesendet. Danach wird der Bericht generiert und per E-Mail an die Empfänger gesendet, die unter der angegebenen Häufigkeit aufgeführt sind.
+
+
+
+
+
+== Nachdem Sie fertig sind
+
+Auf Grundlage der im Bericht gezeigten Ergebnisse sollten Sie die Last der Aggregate ausgleichen.

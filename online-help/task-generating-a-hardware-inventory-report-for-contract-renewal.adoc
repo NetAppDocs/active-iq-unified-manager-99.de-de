@@ -1,0 +1,33 @@
+---
+permalink: online-help/task-generating-a-hardware-inventory-report-for-contract-renewal.html 
+sidebar: sidebar 
+keywords: contract renewal,cluster inventory 
+summary: 'Sie können einen Bericht generieren, der eine vollständige Liste von Cluster- und Node-Informationen enthält, wie z. B. Hardware-Modellnummern, Seriennummern, Festplattentypen und -Anzahl, installierte Lizenzen usw. Dieser Bericht ist hilfreich bei der Vertragsverlängerung innerhalb sicherer Websites \ („dark“ sites\), die nicht mit der NetAppActive IQ Plattform verbunden sind.' 
+---
+= Erstellen eines Hardware-Bestandsberichts zur Vertragsverlängerung
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können einen Bericht generieren, der eine vollständige Liste von Cluster- und Node-Informationen enthält, wie z. B. Hardware-Modellnummern, Seriennummern, Festplattentypen und -Anzahl, installierte Lizenzen usw. Dieser Bericht unterstützt Sie bei der Vertragsverlängerung innerhalb sicherer Standorte („`dARK`“-Websites), die keine Verbindung zur NetAppActive IQ Plattform aufweisen.
+
+
+
+== Bevor Sie beginnen
+
+Sie müssen über die Rolle „Operator“, „Application Administrator“ oder „Storage Administrator“ verfügen.
+
+
+
+== Schritte
+
+. Klicken Sie im linken Navigationsbereich auf *Speicherung* > *Knoten*.
+. Gehen Sie zur *Gesundheit: Alle Knoten* Ansicht oder *Leistung: Alle Knoten* Ansicht.
+. Wählen Sie *Berichte* > *** > **Hardware Inventory Report* Aus.
++
+Der Hardware-Bestandsbericht wird als heruntergeladen `.csv` Datei mit vollständigen Informationen zum aktuellen Datum.
+
+. Stellen Sie diese Informationen Ihrem NetApp Support-Ansprechpartner für eine Vertragsverlängerung bereit.
+

@@ -1,0 +1,125 @@
+---
+permalink: online-help/reference-nfs-shares-health-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die folgenden Felder sind in der Ansicht „Systemzustand: Alle NFS-Freigaben“ verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.' 
+---
+= NFS teilt die Gesundheitsfelder
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die folgenden Felder sind in der Ansicht „Systemzustand: Alle NFS-Freigaben“ verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.
+
+* *Status*
++
+Zeigt den aktuellen Status der NFS-Freigaben an. Der Status kann „Fehler“ sein (image:../media/sev-error-um60.png["Symbol für den Schweregrad „Ereignis“: Fehler"]) Oder normal (image:../media/sev-normal-um60.png["Symbol für den Schweregrad „Ereignis“ – „Normal“"]).
+
+* * Mount Pfad*
++
+Zeigt den Pfad an, auf den das Volume angehängt ist. Wird auf einen qtree eine explizite NFS Exportrichtlinie angewendet, zeigt die Spalte den Pfad des Volume an, über das auf den qtree zugegriffen werden kann.
+
+* * Mount Path Aktiv*
++
+Zeigt an, ob der Pfad für den Zugriff auf das bereitgestellte Volume aktiv oder inaktiv ist.
+
+* *Qtree*
++
+Zeigt den Namen des qtree an, auf den die NFS-Exportrichtlinie angewendet wird.
+
+* *Lautstärke*
++
+Zeigt den Namen des Volumes an, auf das die NFS-Exportrichtlinie angewendet wird.
+
+* *Volume-Status*
++
+Zeigt den Status des Volumes an, das exportiert wird. Der Status kann Offline, Online, eingeschränkt oder gemischt sein.
+
++
+** Offline
++
+Lese- oder Schreibzugriff auf das Volume ist nicht zulässig.
+
+** Online
++
+Lese- und Schreibzugriff auf das Volume ist zulässig.
+
+** Eingeschränkt
++
+Begrenzte Vorgänge, wie etwa die Paritätsrekonstruktion, sind zulässig, der Datenzugriff jedoch nicht.
+
+** Gemischt
++
+Die Komponenten eines FlexGroup-Volumes sind nicht alle im selben Zustand.
+
+
+
+* *Sicherheitsstil*
++
+Zeigt die Zugriffsberechtigung für die exportierten Volumes an. Der Sicherheitsstil kann UNIX, Unified, NTFS oder gemischt sein.
+
++
+** UNIX (NFS-Clients)
++
+Dateien und Verzeichnisse im Volume haben UNIX Berechtigungen.
+
+** Virtualisierung
++
+Dateien und Verzeichnisse im Volume weisen einen einheitlichen Sicherheitsstil auf.
+
+** NTFS (CIFS-Clients)
++
+Dateien und Verzeichnisse im Volume haben Windows NTFS-Berechtigungen.
+
+** Gemischt
++
+Dateien und Verzeichnisse auf dem Volume können entweder UNIX Berechtigungen oder Windows NTFS Berechtigungen haben.
+
+
+
+* *UNIX-Erlaubnis*
++
+Zeigt die UNIX-Berechtigungsbits in einem Oktal-String-Format an, das für die exportierten Volumes festgelegt ist. Es ähnelt den Berechtigungsbits im UNIX-Stil.
+
+* *Exportrichtlinie*
++
+Zeigt die Regeln an, die die Zugriffsberechtigung für exportierte Volumes definieren.
+
++
+Wenn Sie einen Bericht für die Ansicht „Gesundheit: Alle NFS-Freigaben“ generieren, werden alle Regeln, die zur Exportrichtlinie gehören, in die CSV- oder PDF-Datei exportiert.
+
+* *Regelindex*
++
+Zeigt die Regeln an, die der Exportrichtlinie zugeordnet sind, z. B. die Authentifizierungsprotokolle und die Zugriffsberechtigung.
+
+* *Zugriffsprotokolle*
++
+Zeigt die Protokolle an, die für die Regeln für die Exportrichtlinie aktiviert sind.
+
+* * Client Match*
++
+Zeigt die Clients an, die über die Berechtigung zum Zugriff auf Daten auf den Volumes verfügen.
+
+* *Nur-Lese-Zugriff*
++
+Zeigt das Authentifizierungsprotokoll an, das zum Lesen von Daten auf den Volumes verwendet wird.
+
+* *Schreibzugriff Lesen*
++
+Zeigt das Authentifizierungsprotokoll an, das zum Lesen oder Schreiben von Daten auf den Volumes verwendet wird.
+
+* *Storage VM*
++
+Zeigt den Namen der SVM mit NFS-Share-Richtlinien an.
+
+* * Cluster*
++
+Zeigt den Namen des Clusters an.
+
+* *Cluster-FQDN*
++
+Zeigt den vollständig qualifizierten Domänennamen (FQDN) des Clusters an.
+
+

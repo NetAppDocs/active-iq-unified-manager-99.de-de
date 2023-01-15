@@ -1,0 +1,219 @@
+---
+permalink: online-help/reference-what-ontap-issues-can-unified-manager-fix.html 
+sidebar: sidebar 
+keywords: fix it,fix all 
+summary: In dieser Tabelle werden die ONTAP Probleme beschrieben, die Unified Manager direkt über die Benutzeroberfläche von Unified Manager lösen kann, indem Sie auf die Schaltfläche „alles beheben“ oder „Alle beheben“ klicken. 
+---
+= Welche ONTAP-Probleme können mit Unified Manager behoben werden
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+In dieser Tabelle werden die ONTAP-Probleme beschrieben, die Unified Manager direkt über die Benutzeroberfläche von Unified Manager lösen kann, indem Sie auf die Schaltfläche *Beheben von Problemen* oder *alles beheben* klicken.
+
+[cols="3*"]
+|===
+| Name und Beschreibung des Events | Managementaktion | Vorgang „`Fix It`“ 
+
+
+ a| 
+Volume-Speicherplatz Voll
+
+Das Volume ist fast nicht mehr Platz vorhanden und es hat den Schwellenwert für die Kapazitäten erreicht. Dieser Schwellenwert ist standardmäßig auf 90 % der Volume-Größe eingestellt.
+ a| 
+Aktivieren Sie Autogrow
+ a| 
+Unified Manager ermittelt, dass Volume Autogrow nicht für dieses Volume konfiguriert ist, sodass es diese Funktion aktiviert, damit das Volume bei Bedarf die Kapazität erweitert.
+
+
+
+ a| 
+Inodes Voll
+
+Dieses Volume hat keine Inodes und kann keine neuen Dateien akzeptieren.
+ a| 
+Erhöhen Sie die Anzahl von Inodes auf dem Volumen
+ a| 
+Erhöht die Anzahl der Inodes auf dem Volumen um 2 Prozent.
+
+
+
+ a| 
+Richtlinie Für Storage-Tier Wurde Nicht Stimmt Überein
+
+Das Volume verfügt über viele inaktive Daten, und die aktuelle Tiering-Richtlinie lautet „`snapshot-only`“ oder „`none`“.
+ a| 
+Aktivieren Sie automatisches Cloud Tiering
+ a| 
+Da das Volume bereits auf einer FabricPool gespeichert ist, wird die Tiering-Richtlinie in „`Auto`“ geändert, sodass inaktive Daten in die kostengünstigere Cloud-Tier verschoben werden.
+
+
+
+ a| 
+Nichtübereinkommen Bei Storage Tier Erkannt
+
+Auf dem Volume befinden sich viele inaktive Daten, die sich jedoch nicht auf einem Cloud-fähigen Storage Tier (FabricPool) befinden.
+ a| 
+Storage-Tier von Volumes` ändern
+ a| 
+Verschiebt das Volume auf Cloud-fähige Storage-Tier und setzt die Tiering-Richtlinie auf „`Auto`“, um inaktive Daten auf die Cloud-Tier zu verschieben.
+
+
+
+ a| 
+Überwachungsprotokoll Deaktiviert
+
+Das Prüfprotokoll ist für die Storage-VM nicht aktiviert
+ a| 
+Aktivieren der Audit-Protokollierung für die Storage-VM
+ a| 
+Aktiviert die Protokollierung von Prüfungen auf der Storage-VM.
+
+Beachten Sie, dass für die Storage-VM bereits ein lokaler oder ein Remote-Audit-Protokollverzeichnis konfiguriert sein muss.
+
+
+
+ a| 
+Anmelde-Banner Deaktiviert
+
+Das Login-Banner für den Cluster sollte aktiviert sein, um die Sicherheit zu erhöhen, indem Zugriffsbeschränkungen klar werden.
+ a| 
+Setzen Sie das Anmeldebanner für den Cluster ein
+ a| 
+Setzt das Cluster-Anmeldebanner auf „`Zugriff beschränkt auf autorisierte Benutzer`“.
+
+
+
+ a| 
+Anmelde-Banner Deaktiviert
+
+Das Login-Banner für die Storage-VM sollte aktiviert sein, um die Sicherheit zu erhöhen, indem Zugriffsbeschränkungen klar werden.
+ a| 
+Setzen Sie das Anmeldebanner für die Storage-VM ein
+ a| 
+Legt das Storage-VM-Anmeldebanner auf „`Zugriff beschränkt auf autorisierte Benutzer`“ fest.
+
+
+
+ a| 
+SSH verwendet unsichere Chiffren
+
+Chiffren mit dem Suffix „`-cbc`“ gelten als unsicher.
+ a| 
+Entfernen Sie unsichere Chiffren aus dem Cluster
+ a| 
+Entfernt die unsicheren Chiffren - wie aes192-cbc und aes128-cbc -- aus dem Cluster.
+
+
+
+ a| 
+SSH verwendet unsichere Chiffren
+
+Chiffren mit dem Suffix „`-cbc`“ gelten als unsicher.
+ a| 
+Entfernen Sie unsichere Chiffren aus der Storage-VM
+ a| 
+Entfernt die unsicheren Chiffren - wie aes192-cbc und aes128-cbc -- von der Storage-VM.
+
+
+
+ a| 
+AutoSupport HTTPS-Transport deaktiviert
+
+Das Transportprotokoll zum Senden von AutoSupport Meldungen an den technischen Support sollte verschlüsselt sein.
+ a| 
+Legen Sie HTTPS als Transportprotokoll für AutoSupport Meldungen fest
+ a| 
+Legt HTTPS als Transportprotokoll für AutoSupport Meldungen auf dem Cluster fest.
+
+
+
+ a| 
+Überschreitung Des Schwellenwerts Für Das Cluster-Load-Ungleichgewicht
+
+Zeigt an, dass der Lastausgleich zwischen den Nodes im Cluster nicht ausgeglichen ist. Dieses Ereignis wird generiert, wenn die verwendete Performance-Abweichung zwischen den Nodes mehr als 30 % beträgt.
+ a| 
+Lastausgleich für Cluster-Workloads
+ a| 
+Unified Manager ermittelt, welches Volume am besten von einem Node zum anderen verschoben werden soll, um das Ungleichgewicht zu verringern und dann das Volume zu verschieben.
+
+
+
+ a| 
+Unterschreiten Des Schwellenwerts Für Die Clusterkapazität
+
+Zeigt an, dass der Kapazitätsausgleich zwischen den Aggregaten im Cluster nicht möglich ist. Dieses Ereignis wird erzeugt, wenn die verwendete Kapazitätsabweichung zwischen Aggregaten mehr als 70 % beträgt.
+ a| 
+Ausgewogene Cluster-Kapazität
+ a| 
+Unified Manager erkennt das optimale Volume für die Verschiebung von einem Aggregat zu einem anderen, um das Ungleichgewicht zu verringern und dann das Volume zu verschieben.
+
+
+
+ a| 
+Nicht Genutzte Performance-Kapazität Schwellenwert
+
+Zeigt an, dass die Last auf dem Node überausgelastet werden kann, wenn die Auslastung nicht um mindestens einen hochaktiven Workload reduziert wird. Dieses Ereignis wird generiert, wenn die genutzte Node-Performance-Kapazität für mehr als 12 Stunden mehr als 100 % beträgt.
+ a| 
+Begrenzen Sie die hohe Last auf dem Node
+ a| 
+Unified Manager ermittelt das Volume mit den höchsten IOPS und wendet eine QoS-Richtlinie auf Basis des erwarteten historischen IOPS-Spitzenniveaus an, um die Last auf dem Node zu verringern.
+
+
+
+ a| 
+Schwellenwert Für Dynamische Ereigniswarnung Überschritten
+
+Zeigt an, dass der Node aufgrund der ungewöhnlich hohen Auslastung einiger Workloads bereits überlastet ist.
+ a| 
+Verringern Sie die Überlastung in einem Node
+ a| 
+Unified Manager ermittelt das Volume mit den höchsten IOPS und wendet eine QoS-Richtlinie auf Basis des erwarteten historischen IOPS-Spitzenniveaus an, um die Last auf dem Node zu verringern.
+
+
+
+ a| 
+Übernahme ist nicht möglich
+
+Der Failover ist derzeit deaktiviert, sodass während eines Ausfalls oder Neubootens der Zugriff auf die Ressourcen des Node unterbrochen wird, bis der Node wieder verfügbar ist.
+ a| 
+Aktivieren Sie Node-Failover
+ a| 
+Unified Manager sendet den entsprechenden Befehl, um Failover auf allen Knoten im Cluster zu aktivieren.
+
+
+
+ a| 
+Option cf.takeover.on_Panic IST AUS konfiguriert
+
+Die nodeshell Option "`cf.Übernahme.on_panic`" ist auf *aus* eingestellt, was bei HA-konfigurierten Systemen zu einem Problem führen kann.
+ a| 
+Aktivieren Sie die Übernahme in Panikzustand
+ a| 
+Unified Manager sendet den entsprechenden Befehl an den Cluster, um diese Einstellung in *ein* zu ändern.
+
+
+
+ a| 
+Deaktivieren Sie die nodeshell Option snapmirror.enable
+
+Die alte nodeshell Option "`snapmirror.enable`" ist auf *ein* eingestellt, was beim Booten nach dem Upgrade auf ONTAP 9.3 oder höher zu einem Problem führen könnte.
+ a| 
+Setzen Sie die option snapmirror.enable auf aus
+ a| 
+Unified Manager sendet den entsprechenden Befehl an den Cluster, um diese Einstellung in *aus* zu ändern.
+
+
+
+ a| 
+Telnet ist aktiviert
+
+Weist auf ein potenzielles Sicherheitsproblem hin, da Telnet unsicher ist und Daten unverschlüsselt weiterleitet.
+ a| 
+Deaktivieren Sie Telnet
+ a| 
+Unified Manager sendet den entsprechenden Befehl an das Cluster, um Telnet zu deaktivieren.
+
+|===

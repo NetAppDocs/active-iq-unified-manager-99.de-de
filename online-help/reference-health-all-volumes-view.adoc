@@ -1,0 +1,55 @@
+---
+permalink: online-help/reference-health-all-volumes-view.html 
+sidebar: sidebar 
+keywords:  
+summary: 'In der Ansicht Systemzustand: Alle Volumes werden Informationen über die Volumes in den überwachten Speichersystemen angezeigt und Sie können die Volume-Schwellenwerteinstellungen ändern.' 
+---
+= Gesundheit: Alle Volumes anzeigen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+In der Ansicht Systemzustand: Alle Volumes werden Informationen über die Volumes in den überwachten Speichersystemen angezeigt und Sie können die Volume-Schwellenwerteinstellungen ändern.
+
+Standardmäßig werden Objekte auf den Ansichtsseiten nach Wichtigkeit des Ereignisses sortiert. Objekte mit kritischen Ereignissen werden zuerst aufgeführt und Objekte mit Warnmeldungen werden als zweites aufgeführt. Dies bietet eine unmittelbare visuelle Darstellung von Problemen, die behoben werden müssen. Jedes Volume im Volume-Grid verfügt über Links zu ONTAP System Manager. Die Menüoption *View in System Manager* steht als einer der Links für jedes Volume zur Verfügung. Über diesen Link können Sie dieselbe Schutzbeziehung in ONTAP System Manager anzeigen.
+
+Mit den Steuerelementen oben auf der Seite können Sie eine bestimmte Ansicht auswählen (für Zustand, Leistung, Kapazität usw.). Führen Sie Suchen durch, um bestimmte Objekte zu finden, erstellen und anwenden Sie Filter, um die Liste der angezeigten Daten einzugrenzen, Spalten auf der Seite hinzuzufügen/zu entfernen/neu zu ordnen, Und exportieren Sie die Daten auf der Seite in A `.csv`, `.pdf`, Oder `.xlsx` Datei: Nachdem Sie die Seite angepasst haben, können Sie die Ergebnisse als benutzerdefinierte Ansicht speichern und anschließend einen Bericht dieser Daten erstellen und regelmäßig per E-Mail senden.
+
+Wenn Sie die Latenz und den Durchsatz eines bestimmten Objekts analysieren möchten, klicken Sie auf das Symbol weiter image:../media/more-icon.gif[""], Dann *Workload analysieren* und Sie können Performance- und Kapazitätsdiagramme auf der Seite Workload-Analyse anzeigen.
+
+Siehe xref:reference-volume-health-fields.adoc[Felder für den Volume-Zustand] Für Beschreibungen aller Felder auf dieser Seite.
+
+
+
+== Befehlsschaltflächen
+
+* *Schwellenwert Bearbeiten*
++
+Zeigt das Dialogfeld Schwellenwerte bearbeiten an, in dem Sie die Einstellungen für den Integritätsschwellenwert für ein oder mehrere Volumes bearbeiten können.
+
+* *Schutz*
++
+Zeigt die folgenden Untermenüs an:
+
++
+** SnapMirror
++
+Ermöglicht Ihnen, eine SnapMirror Beziehung für die ausgewählten Volumes zu erstellen.
+
+** SnapVault
++
+Ermöglicht Ihnen, eine SnapVault-Beziehung für die ausgewählten Volumes zu erstellen.
+
+
+
+* *Wiederherstellen*
++
+Zeigt das Dialogfeld Wiederherstellen an, in dem Sie Verzeichnisse oder Dateien von einem Volume gleichzeitig wiederherstellen können.
+
+* *Anmerkung*
++
+Ermöglicht Ihnen, das ausgewählte Volume mit Anmerkungen zu versehen.
+
+

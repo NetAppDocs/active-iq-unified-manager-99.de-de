@@ -1,0 +1,28 @@
+---
+permalink: online-help/task-viewing-user-and-user-group-quotas.html 
+sidebar: sidebar 
+keywords:  
+summary: Auf der Seite Storage VM/Health Details werden Informationen über die auf der SVM konfigurierten Benutzer- und Benutzergruppenkontingente angezeigt. Sie können den Namen des Benutzers oder der Benutzergruppe, die auf Festplatten und Dateien festgelegten Grenzen, den verwendeten Festplatten- und Dateispeicherplatz und die E-Mail-Adresse für Benachrichtigungen anzeigen. 
+---
+= Anzeigen von Benutzer- und Benutzergruppenkontingenten
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Auf der Seite Storage VM/Health Details werden Informationen über die auf der SVM konfigurierten Benutzer- und Benutzergruppenkontingente angezeigt. Sie können den Namen des Benutzers oder der Benutzergruppe, die auf Festplatten und Dateien festgelegten Grenzen, den verwendeten Festplatten- und Dateispeicherplatz und die E-Mail-Adresse für Benachrichtigungen anzeigen.
+
+
+
+== Bevor Sie beginnen
+
+Sie müssen über die Rolle „Operator“, „Application Administrator“ oder „Storage Administrator“ verfügen.
+
+
+
+== Schritte
+
+. Klicken Sie im linken Navigationsbereich auf *Storage* > *Storage VMs*.
+. Wählen Sie in der Ansicht *Health: All Storage VMs* eine Storage VM aus und klicken Sie dann auf die Registerkarte *Benutzer- und Gruppenquoten*.
+

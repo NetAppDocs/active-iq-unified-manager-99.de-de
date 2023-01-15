@@ -1,0 +1,146 @@
+---
+permalink: online-help/reference-aggregate-capacity-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: Die folgenden Felder sind im Bericht zur Kapazität und Auslastung des Aggregats verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden. 
+---
+= Felder für die Aggregatskapazität
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die folgenden Felder sind im Bericht zur Kapazität und Auslastung des Aggregats verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.
+
+* * Aggregat*
++
+Der Name des Aggregats.
+
+* * Tägliche Zuwachsrate %*
++
+Die Wachstumsrate, die alle 24 Stunden im Aggregat stattfindet.
+
+* *Tage Bis Voll*
++
+Die geschätzte Anzahl der verbleibenden Tage, bevor das Aggregat die volle Kapazität erreicht.
+
+* *Überengagierte Kapazität %*
++
+Die Gesamtüberbelegung als Prozentsatz.
+
+* * Verfügbare Daten %*
++
+Die verfügbare Datenkapazität als Prozentsatz.
+
+* *Verfügbare Datenkapazität*
++
+Die verfügbare Datenkapazität.
+
+* *Verwendete Daten %*
++
+Die genutzte Datenkapazität als Prozentsatz.
+
+* *Genutzte Datenkapazität*
++
+Der verwendeten Datenkapazität.
+
+* *Gesamtkapazität Der Daten*
++
+Die Gesamtkapazität (genutzter plus verfügbarer) Daten.
+
+* *Verwendeter Logischer Raum*
++
+Die tatsächliche Größe der im Aggregat gespeicherten Daten, ohne dabei die Einsparungen durch die ONTAP Storage-Effizienztechnologien zu verwenden.
+
+* *Snapshot Reserve Verfügbar %*
++
+Die Menge an Speicherplatz, die für Snapshot Kopien als Prozentsatz verfügbar ist.
+
+* *Snapshot Reserve Verfügbare Kapazität*
++
+Die Menge an Speicherplatz, der für Snapshot-Kopien verfügbar ist.
+
+* *Snapshot Reserve Verwendet %*
++
+Die Menge an Speicherplatz, den Snapshot Kopien aus der Snapshot Reserve als Prozentsatz verwendet haben.
+
+* *Verwendete Snapshot-Reserve Kapazität*
++
+Die Menge an Speicherplatz, der von Snapshot-Kopien aus der Snapshot Reserve verwendet wird.
+
+* *Snapshot Reserve Gesamtkapazität*
++
+Die Gesamtkapazität der Snapshot-Reserve des Aggregats.
+
+* *Cloud Tier Verwendeter Platz*
++
+Die Datenmenge, die aktuell im Cloud-Tier verwendet wird.
+
+* * Cloud Tier*
++
+Der Name des Cloud-Tier-Objektspeichers beim Erstellen von ONTAP.
+
+* *Bundesland*
++
+Der aktuelle Status des Aggregats.
+
+* *Typ*
++
+Der Aggregattyp:
+
++
+** HDD
+** Hybrid
++
+Kombiniert HDDs und SSDs, aber Flash Pool wurde nicht aktiviert.
+
+** Hybrid (Flash Pool)
++
+Kombiniert HDDs und SSDs und ermöglicht die Aktivierung von Flash Pool.
+
+** SSD
+** SSD (FabricPool)
++
+Kombiniert SSDs mit einer Cloud-Tier
+
+** HDD (FabricPool)
++
+Kombiniert HDDs und ein Cloud-Tier
+
+** VMDisk (SDS)
++
+Virtuelle Laufwerke innerhalb einer virtuellen Maschine
+
+** VMDisk (FabricPool)
++
+Kombiniert virtuelle Festplatten mit einer Cloud-Tier
+
+** LUN (FlexArray)
+
+
+* *RAID-Typ*
++
+Der RAID-Konfigurationstyp.
+
+* *SnapLock Typ*
++
+Der SnapLock-Typ für das Aggregat. Mögliche Werte sind Compliance, Enterprise, Non-SnapLock.
+
+* *HA-Paar*
++
+Der HA-Paar-Wert, der durch die Bildung von zwei Nodes ermittelt wird.
+
+* *Knoten*
++
+Der Name des Node, der das Aggregat enthält.
+
+* * Cluster*
++
+Der Cluster-Name. Sie können auf den Cluster-Namen klicken, um zur Seite mit den Kapazitätsdetails dieses Clusters zu gelangen.
+
+* *Cluster-FQDN*
++
+Der vollständig qualifizierte Domänenname (FQDN) des Clusters.
+
+

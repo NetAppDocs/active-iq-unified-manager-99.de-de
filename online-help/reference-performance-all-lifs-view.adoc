@@ -1,0 +1,27 @@
+---
+permalink: online-help/reference-performance-all-lifs-view.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die Ansicht Performance: Alle Netzwerkschnittstellen zeigt eine Übersicht über die Performance-Ereignisse, Daten und Konfigurationsinformationen für jede Netzwerkschnittstelle \ (LIF\) an, die von dieser Instanz von Unified Manager überwacht wird. Auf dieser Seite können Sie die Leistung Ihrer Schnittstellen schnell überwachen und Leistungsprobleme und Schwellenwertereignisse beheben.' 
+---
+= Performance: Ansicht aller Netzwerkschnittstellen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Ansicht Performance: Alle Netzwerkschnittstellen zeigt eine Übersicht über die Performance-Ereignisse, Daten und Konfigurationsinformationen für jede Netzwerkschnittstelle (LIF) an, die von dieser Instanz von Unified Manager überwacht wird. Auf dieser Seite können Sie die Leistung Ihrer Schnittstellen schnell überwachen und Leistungsprobleme und Schwellenwertereignisse beheben.
+
+Standardmäßig werden Objekte auf den Ansichtsseiten nach Wichtigkeit des Ereignisses sortiert. Objekte mit kritischen Ereignissen werden zuerst aufgeführt und Objekte mit Warnmeldungen werden als zweites aufgeführt. Dies bietet eine unmittelbare visuelle Darstellung von Problemen, die behoben werden müssen.
+
+Mit den Steuerelementen oben auf der Seite können Sie eine bestimmte Ansicht auswählen (für Zustand, Leistung, Kapazität usw.). Führen Sie Suchen durch, um bestimmte Objekte zu finden, erstellen und anwenden Sie Filter, um die Liste der angezeigten Daten einzugrenzen, Spalten auf der Seite hinzuzufügen/zu entfernen/neu zu ordnen, Und exportieren Sie die Daten auf der Seite in A `.csv`, `.pdf`, Oder `.xlsx` Datei: Nachdem Sie die Seite angepasst haben, können Sie die Ergebnisse als benutzerdefinierte Ansicht speichern und anschließend einen Bericht dieser Daten erstellen und regelmäßig per E-Mail senden.
+
+Über die Schaltflächen *Performance Threshold Policy* und *Clear Performance Threshold Policy* können Sie Schwellenwertrichtlinien auf den Objektbestandsseiten zuweisen oder löschen.
+
+[NOTE]
+====
+Die auf dieser Seite aufgeführten Schnittstellen umfassen Daten-LIFs, Cluster-LIFs, Node-Management-LIFs und Intercluster LIFs. Unified Manager verwendet keine System-LIFs oder zeigt diese an.
+
+====
+Siehe xref:reference-lif-performance-fields.adoc[Felder für die Netzwerkschnittstelle-Leistung] Für Beschreibungen aller Felder auf dieser Seite.

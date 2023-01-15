@@ -1,0 +1,75 @@
+---
+permalink: online-help/reference-qtree-capacity-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die folgenden Felder sind in der Kapazität verfügbar: Alle Qtrees-Ansicht und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.' 
+---
+= Felder für die qtree-Kapazität
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die folgenden Felder sind in der Kapazität verfügbar: Alle Qtrees-Ansicht und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.
+
+* *Status*
++
+Zeigt den aktuellen Status des qtree an. Der Status kann kritisch sein (image:../media/sev-critical-um60.png["Symbol für den Schweregrad „Ereignis“ – „kritisch“"]), Fehler (image:../media/sev-error-um60.png["Symbol für den Schweregrad „Ereignis“: Fehler"]), Warnung (image:../media/sev-warning-um60.png["Symbol für den Schweregrad „Ereignis“ – Warnung"]Oder normal (image:../media/sev-normal-um60.png["Symbol für den Schweregrad „Ereignis“ – „Normal“"]).
+
+* *Qtree*
++
+Zeigt den Namen des qtree an.
+
+* *Lautstärke*
++
+Zeigt den Namen des Volume an, das den qtree enthält.
+
++
+Sie können auf den Volume-Namen klicken, um weitere Informationen zum Volume anzuzeigen.
+
+* *Quotentyp*
++
+Wenn ein Kontingent für den qtree festgelegt ist, gibt an, ob das Kontingent für einen Benutzer, eine Benutzergruppe oder eine Struktur gilt.
+
+* *Benutzer oder Gruppe*
++
+Zeigt den Namen des Benutzers oder der Benutzergruppe an. Für jeden Benutzer und jede Benutzergruppe werden mehrere Zeilen angezeigt. Wenn der Kontingenttyp qtree ist oder nicht festgelegt ist, ist die Spalte leer.
+
+* *Verwendete Festplatte %*
++
+Zeigt den Prozentsatz des verwendeten Festplattenspeichers an. Wenn ein Festplattenlimit festgelegt ist, basiert dieser Wert auf dem Festplattenlimit. Wenn das Kontingent ohne Festplattenlimit festgelegt wird, basiert der Wert auf dem Volume-Datenraum. Wenn das Kontingent nicht festgelegt ist oder wenn Quoten auf dem Volumen deaktiviert sind, zu dem der qtree gehört, wird „`not anwendbare`“ auf der Grid-Seite angezeigt und das Feld in den CSV-Exportredaten leer ist.
+
+* *Festplatten-Hard-Limit*
++
+Zeigt die maximale Menge an Festplattenspeicher an, die für den qtree zugewiesen ist. Unified Manager generiert ein kritisches Ereignis, wenn dieses Limit erreicht wird und keine weiteren Festplattenschreibvorgänge mehr zulässig sind. Der Wert wird für die folgenden Bedingungen als „`Unlimited`“ angezeigt: Wenn das Kontingent ohne ein Festplattenlimit gesetzt wird, wenn das Kontingent nicht festgelegt ist, oder wenn Quoten auf dem Volumen deaktiviert sind, zu dem der qtree gehört.
+
+* *Soft Limit Für Festplatten*
++
+Zeigt die Menge an Festplattenspeicher an, die dem qtree zugewiesen ist, bevor ein Warnereignis generiert wird. Der Wert wird für die folgenden Bedingungen als „`Unlimited`“ angezeigt: Wenn das Kontingent ohne ein Disk-Softlimit gesetzt wird, wenn das Kontingent nicht festgelegt ist, oder wenn Quoten auf dem Volumen deaktiviert sind, zu dem der qtree gehört.
+
+* *Verwendete Dateien %*
++
+Zeigt den Prozentsatz der im qtree verwendeten Dateien an. Wenn das harte Limit für die Datei festgelegt ist, basiert dieser Wert auf dem harten Limit der Datei. Es wird kein Wert angezeigt, wenn das Kontingent ohne harte Dateibegrenzung festgelegt ist. Wenn das Kontingent nicht festgelegt ist oder wenn Quoten auf dem Volumen deaktiviert sind, zu dem der qtree gehört, wird „`not anwendbare`“ auf der Grid-Seite angezeigt und das Feld in den CSV-Exportredaten leer ist.
+
+* *Harte Dateibegrenzung*
++
+Zeigt das endgültige Limit für die Anzahl der Dateien an, die auf den qtrees zulässig sind. Der Wert wird für die folgenden Bedingungen als „`Unlimited`“ angezeigt: Wenn das Kontingent ohne eine feste Dateibegrenzung festgelegt wird, wenn das Kontingent nicht festgelegt ist, oder wenn Quoten auf dem Volumen deaktiviert sind, zu dem der qtree gehört.
+
+* *Soft Limit Für Dateien*
++
+Zeigt den Softlimit für die Anzahl der Dateien an, die auf qtrees zulässig sind. Der Wert wird für die folgenden Bedingungen als „`Unlimited`“ angezeigt: Wenn das Kontingent ohne ein Datei-Softlimit gesetzt wird, wenn das Kontingent nicht festgelegt ist, oder wenn Quoten auf dem Volumen deaktiviert sind, zu dem der qtree gehört.
+
+* *SVM*
++
+Zeigt den Namen der Storage Virtual Machine (SVM) an, die den qtree enthält.
+
+* * Cluster*
++
+Zeigt den Namen des Clusters an, der den qtree enthält.
+
+* *Cluster-FQDN*
++
+Zeigt den vollständig qualifizierten Domänennamen (FQDN) des Clusters an.
+
+

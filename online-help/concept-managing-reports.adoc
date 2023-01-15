@@ -1,0 +1,31 @@
+---
+permalink: online-help/concept-managing-reports.html 
+sidebar: sidebar 
+keywords:  
+summary: Mit Active IQ Unified Manager können Berichte direkt über die Benutzeroberfläche von Unified Manager erstellt und gemanagt werden. So lassen sich Informationen über den Zustand, die Kapazität, die Performance und die Sicherungsbeziehungen von Storage-Objekten in den Clustern anzeigen. Durch die Überprüfung dieser Informationen können Sie potenzielle Probleme erkennen, bevor sie auftreten. 
+---
+= Verwalten von Berichten
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Mit Active IQ Unified Manager können Berichte direkt über die Benutzeroberfläche von Unified Manager erstellt und gemanagt werden. So lassen sich Informationen über den Zustand, die Kapazität, die Performance und die Sicherungsbeziehungen von Storage-Objekten in den Clustern anzeigen. Durch die Überprüfung dieser Informationen können Sie potenzielle Probleme erkennen, bevor sie auftreten.
+
+Sie können Berichte als kommagetrennte Werte (.csv), Microsoft Excel (.xlsx) oder PDF-Dateien herunterladen. Sie können den Versand eines Berichts auch per E-Mail an eine Gruppe von Empfängern planen. Die Berichte werden als E-Mail-Anlagen versendet.
+
+Zusätzlich zum Generieren von Berichten aus der Benutzeroberfläche können Sie mit den folgenden zusätzlichen Methoden Gesundheits- und Performancedaten aus Unified Manager extrahieren:
+
+* Verwenden der Open Database Connectivity (ODBC)- und ODBC-Tools für den direkten Zugriff auf die Datenbank für Clusterinformationen
+* Ausführung von Unified Manager REST-APIs zur Rückgabe der Informationen, für die Sie interessiert sind, zu überprüfen
+
+
+Ab dieser Active IQ Unified Manager-Version werden die Berichte um folgende Verbesserungen erweitert:
+
+* E-Mail wird für einen Bericht gemäß dem konfigurierten Zeitplan gesendet. Selbst wenn Sie einen On-Demand-Bericht erstellen, erhalten Sie per E-Mail.
+* Der Dateiname des Berichts und der Metadaten des Berichts enthält den Hostnamen, aus dem der Bericht erstellt wurde.
++
+Selbst wenn jemand den Dateinamen ändert, können Sie dennoch den Hostnamen identifizieren, aus dem der Bericht aufgrund dieser Verbesserung generiert wurde.
+
+

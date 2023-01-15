@@ -1,0 +1,22 @@
+---
+permalink: online-help/concept-introduction-to-unified-manager-health-monitoring.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Active IQ Unified Manager \ (ehemals OnCommand Unified Manager\) hilft Ihnen, eine große Anzahl von Systemen mit ONTAP Software über eine zentrale Benutzeroberfläche zu überwachen. Die Unified Manager Serverinfrastruktur bietet Skalierbarkeit, Unterstützbarkeit sowie verbesserte Monitoring- und Benachrichtigungsfunktionen.' 
+---
+= Einführung in das Active IQ Unified Manager Monitoring des Systemzustands
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager (ehemals OnCommand Unified Manager) hilft Ihnen, eine große Anzahl von Systemen mit ONTAP Software über eine zentrale Benutzeroberfläche zu überwachen. Die Unified Manager Serverinfrastruktur bietet Skalierbarkeit, Unterstützbarkeit sowie verbesserte Monitoring- und Benachrichtigungsfunktionen.
+
+Zu den wichtigsten Funktionen von Unified Manager gehören Monitoring-, Warnfunktionen-, Management der Verfügbarkeit und Kapazität von Clustern, Management der Sicherungsfunktionen und Bündelung von Diagnosedaten sowie der Versand an den technischen Support.
+
+Mit Unified Manager können Sie die Cluster überwachen. Wenn im Cluster Probleme auftreten, benachrichtigt Sie Unified Manager über Ereignisse, die Einzelheiten zu solchen Problemen betreffen. Bei einigen Ereignissen erhalten Sie zudem eine Abhilfemaßung, die Sie zur Behebung der Probleme ergreifen können. Sie können Benachrichtigungen für Ereignisse so konfigurieren, dass bei Auftreten von Problemen Sie über E-Mail und SNMP-Traps benachrichtigt werden.
+
+Mit Unified Manager können Sie Storage-Objekte in Ihrer Umgebung managen, indem Sie sie mit Annotationen verknüpfen. Sie können benutzerdefinierte Anmerkungen erstellen und Cluster, Storage Virtual Machines (SVMs) und Volumes dynamisch mit den Annotationen über Regeln verknüpfen.
+
+Zudem können Sie die Storage-Anforderungen Ihrer Cluster-Objekte anhand der Informationen in den Kapazitäts- und Integritätsdiagrammen für das jeweilige Cluster-Objekt planen.

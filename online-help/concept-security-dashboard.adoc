@@ -1,0 +1,34 @@
+---
+permalink: online-help/concept-security-dashboard.html 
+sidebar: sidebar 
+keywords:  
+summary: Sie können das Sicherheitsfenster auf dem Active IQ Unified Manager-Dashboard aktivieren oder deaktivieren. Wenn diese Option aktiviert ist, können Sie auch die Einstellungen für die Compliance-Überwachung sowie die relevanten Sicherheitsereignisse und Verwaltungsaktionen anpassen. 
+---
+= Sicherheits-Dashboard
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können das Sicherheitsfenster auf dem Active IQ Unified Manager-Dashboard aktivieren oder deaktivieren. Wenn diese Option aktiviert ist, können Sie auch die Einstellungen für die Compliance-Überwachung sowie die relevanten Sicherheitsereignisse und Verwaltungsaktionen anpassen.
+
+[NOTE]
+====
+Diese Einstellungen können nur von Benutzern mit Administratorrolle bearbeitet werden.
+
+====
+Die Sicherheitskriterien für Ihre ONTAP Cluster, Storage-VMs und Volumes werden anhand der Empfehlungen bewertet, die im NetApp Leitfaden für die Sicherheit im ONTAP 9 definiert sind. Im Bedienfeld „Sicherheit“ des Dashboards wird der Status der Sicherheitskonformität Ihrer Cluster, Storage-VMs und Volumes angezeigt. Wenn Sie diese Funktion aktivieren, werden auch Sicherheitsereignisse für alle Cluster- oder Storage-VMs mit Sicherheitsverletzungen generiert.
+
+
+
+== Einstellungen werden angepasst
+
+Wenn Sie diese Funktion aktivieren, können Sie die Einstellungen für das Compliance-Monitoring entsprechend Ihrer ONTAP Umgebung anpassen. Diese Einstellungen lösen die relevanten Sicherheitsereignisse und Verwaltungsaktionen aus. Führen Sie hierzu folgende Schritte aus:
+
+. Klicken Sie Auf *Anpassen*. Das Pop-up-Fenster „Einstellungen für das Sicherheits-Dashboard anpassen“ wird angezeigt.
+. Um die benutzerdefinierten Einstellungen für Ihre ONTAP-Cluster zu aktivieren oder zu deaktivieren, erweitern Sie die Auswahl *Allgemeine Einstellungen* für Cluster. Weitere Informationen zu den Optionen zur Anpassung der Cluster-Compliance finden Sie unter link:reference-cluster-compliance-categories.adoc["*Cluster Compliance Kategorien*"].
+. Um die benutzerdefinierten Einstellungen für Ihre Speicher-VMs zu aktivieren oder zu deaktivieren, erweitern Sie die Auswahl *Allgemeine Einstellungen* für Storage-VMs. Weitere Informationen zu den Optionen zur Anpassung der Storage VM Compliance finden Sie unter link:reference-svm-compliance-categories.adoc["Compliance-Kategorien für Storage-VMs"].
+. Sie können außerdem angeben, ob HTTPS-Transport zum Senden von AutoSupport Meldungen aus ONTAP verwendet wird.
+. Wenn Sie die Authentifizierungseinstellungen aktivieren, werden Warnmeldungen von Unified Manager für den standardmäßigen ONTAP-Administratorbenutzer ausgegeben.
+

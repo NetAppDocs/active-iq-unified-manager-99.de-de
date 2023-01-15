@@ -1,0 +1,36 @@
+---
+permalink: health-checker/task-unconfiguring-netapp-snapshot-backup.html 
+sidebar: sidebar 
+keywords: NetApp Snapshot Backup for Windows,Unconfigure 
+summary: Wenn Sie den Backup-Typ für Ihr Active IQ Unified Manager System ändern möchten, können Sie die Wartungsperkonsolen-Optionen verwenden. Die Option NetApp Snapshot Backup aufheben ermöglicht es Ihnen, auf das MySQL-basierte Backup zurückzufallen. 
+---
+= Ändern des Backup-Typs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Wenn Sie den Backup-Typ für Ihr Active IQ Unified Manager System ändern möchten, können Sie die Wartungsperkonsolen-Optionen verwenden. Die Option NetApp Snapshot Backup aufheben ermöglicht es Ihnen, auf das MySQL-basierte Backup zurückzufallen.
+
+
+
+== Bevor Sie beginnen
+
+Sie müssen über eine Benutzer-ID und ein Passwort verfügen, um sich bei der Wartungskonsole des Unified Manager-Servers anzumelden.
+
+
+
+== Schritte
+
+. Öffnen Sie die Wartungskonsole.
+. Wählen Sie `4` Aus dem Menü *Hauptmenü* zur Unterstützung der Wiederherstellung.
+. Wählen Sie `2` Im Menü * Sicherung und Wiederherstellung*.
+. Wählen Sie `4` Für *Konfiguration von NetApp Snapshot Backup* aufheben.
++
+Die ausgeführten Aktionen werden angezeigt, d. h., die Dienste anzuhalten, das Symlink zu unterbrechen, die Daten von Speicher in Verzeichnis zu verschieben und dann die Dienste erneut zu starten.
+
++
+Nachdem das NetApp Snapshot Backup nicht konfiguriert wurde, wird der Backup-Mechanismus auf MySQL als Standard geändert. Diese Änderung wird im Abschnitt Datenbank-Backup der allgemeinen Einstellungen angezeigt.
+
+

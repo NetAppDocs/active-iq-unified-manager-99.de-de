@@ -1,0 +1,42 @@
+---
+permalink: online-help/reference-scheduled-reports-page.html 
+sidebar: sidebar 
+keywords:  
+summary: Auf der Seite „Berichtszeitpläne“ können Sie detaillierte Informationen zu den von Ihnen erstellten Berichten sowie den Zeitplan für die Erstellung anzeigen. Sie können nach einem bestimmten Bericht suchen, bestimmte Attribute eines Berichtzeitplans ändern und einen Berichtsplan löschen. 
+---
+= Seite „Berichtszeitpläne“
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Auf der Seite „Berichtszeitpläne“ können Sie detaillierte Informationen zu den von Ihnen erstellten Berichten sowie den Zeitplan für die Erstellung anzeigen. Sie können nach einem bestimmten Bericht suchen, bestimmte Attribute eines Berichtzeitplans ändern und einen Berichtsplan löschen.
+
+Auf der Seite Berichtspläne wird die Liste der Berichte angezeigt, die auf dem System erstellt wurden.
+
+* *Terminplanname*
++
+Der Name des geplanten Berichts. Dieser Name enthält zunächst den Namen der Ansicht und die Häufigkeit. Sie können diesen Namen ändern, um den Inhalt des Berichts besser wiederzugeben.
+
+* *Aussicht*
++
+Die Ansicht, die zum Erstellen des Berichts verwendet wurde.
+
+* * Empfänger*
++
+Die E-Mail-Adressen von Benutzern, die den generierten Bericht erhalten. Jede E-Mail-Adresse muss durch Komma getrennt werden.
+
+* *Frequenz*
++
+Wie oft wird der Bericht erstellt und an die Empfänger gesendet.
+
+* *Format*
++
+Ob der Bericht als PDF-Datei oder im XLSX- oder CSV-Format generiert wird
+
+* *Aktionsschaltfläche*
++
+Verfügbare Optionen zum Bearbeiten oder Löschen des Berichtzeitplans.
+
+

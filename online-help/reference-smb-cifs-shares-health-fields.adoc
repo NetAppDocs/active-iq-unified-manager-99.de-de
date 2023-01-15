@@ -1,0 +1,132 @@
+---
+permalink: online-help/reference-smb-cifs-shares-health-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die folgenden Felder sind in der Ansicht „Systemzustand: Alle SMB-Freigaben“ verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.' 
+---
+= SMB/CIFS-Freigaben – Integritätsfelder
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die folgenden Felder sind in der Ansicht „Systemzustand: Alle SMB-Freigaben“ verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.
+
+* *Schaltfläche User Mapping anzeigen*
++
+Öffnet das Dialogfeld Benutzerzuordnung.
+
++
+Sie können sich die Details der Benutzerzuordnung für die SVM anzeigen lassen.
+
+* *ACL-Taste anzeigen*
++
+Öffnet das Dialogfeld „Zugriffskontrolle“ für die Freigabe.
+
++
+Sie können Benutzer- und Berechtigungsdetails für die ausgewählte Freigabe anzeigen.
+
+* *Status*
++
+Zeigt den aktuellen Status der Freigabe an. Der Status kann Normal (image:../media/sev-normal-um60.png["Symbol für den Schweregrad „Ereignis“ – „Normal“"]) Oder Fehler (image:../media/sev-error-um60.png["Symbol für den Schweregrad „Ereignis“: Fehler"]).
+
+* *Name*
++
+Zeigt den Namen der CIFS-Freigabe an.
+
+* *Pfad*
++
+Zeigt den Verbindungspfad an, auf dem die Freigabe erstellt wird.
+
+* *Qtree*
++
+Zeigt den Namen des qtree an, auf den die CIFS-Freigabe angewendet wird.
+
+* *Lautstärke*
++
+Zeigt den Namen des Volumes an, auf das die CIFS-Freigabe angewendet wird.
+
+* *Volume-Status*
++
+Zeigt den Status des Volumes an, das exportiert wird. Der Status kann Offline, Online, Restricted, Mixed oder Unbekannt sein.
+
++
+** Offline
++
+Lese- oder Schreibzugriff auf das Volume ist nicht zulässig.
+
+** Online
++
+Lese- und Schreibzugriff auf das Volume ist zulässig.
+
+** Eingeschränkt
++
+Begrenzte Vorgänge, wie etwa die Paritätsrekonstruktion, sind zulässig, der Datenzugriff jedoch nicht.
+
+** Gemischt
++
+Die Komponenten eines FlexGroup-Volumes sind nicht alle im selben Zustand.
+
+
+
+* *Eigenschaften*
++
+Listen Sie die optionalen Eigenschaften auf, die beim Erstellen der Freigabe festgelegt wurden.
+
+* * Benutzer*
++
+Die Benutzer, die auf die Freigabe zugreifen können.
+
+* *Berechtigung*
++
+Die Berechtigungen, die Benutzer auf der Freigabe haben.
+
+* *Sicherheitsstil*
++
+Zeigt die Zugriffsberechtigung für die freigegebenen Volumes an. Der Sicherheitsstil kann UNIX, Unified, NTFS oder gemischt sein.
+
++
+** UNIX (NFS-Clients)
++
+Dateien und Verzeichnisse im Volume haben UNIX Berechtigungen.
+
+** Virtualisierung
++
+Dateien und Verzeichnisse im Volume weisen einen einheitlichen Sicherheitsstil auf.
+
+** NTFS (CIFS-Clients)
++
+Dateien und Verzeichnisse im Volume haben Windows NTFS-Berechtigungen.
+
+** Gemischt
++
+Dateien und Verzeichnisse auf dem Volume können entweder UNIX Berechtigungen oder Windows NTFS Berechtigungen haben.
+
+
+
+* *Exportrichtlinie*
++
+Zeigt den Namen der Exportrichtlinie an, die für die Freigabe gilt. Wenn keine Exportrichtlinie für die SVM angegeben ist, wird der Wert als nicht aktiviert angezeigt.
+
+* * Mount Path Aktiv*
++
+Zeigt an, ob der Pfad für den Zugriff auf die Freigabe aktiv oder inaktiv ist.
+
+* *NFS-Äquivalent*
++
+Gibt an, ob ein Äquivalent zu NFS für die Freigabe vorhanden ist.
+
+* *Storage VM*
++
+Zeigt den Namen der SVM an, zu der die CIFS-Freigabe gehört.
+
+* * Cluster*
++
+Zeigt den Namen des Clusters an.
+
+* *Cluster-FQDN*
++
+Zeigt den vollständig qualifizierten Domänennamen (FQDN) des Clusters an.
+
+

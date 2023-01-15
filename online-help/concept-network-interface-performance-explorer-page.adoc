@@ -1,0 +1,32 @@
+---
+permalink: online-help/concept-network-interface-performance-explorer-page.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die Seite „Network Interface/Performance Explorer“ bietet eine detaillierte Performance-Übersicht für alle Netzwerkschnittstellen \ (LIFs\) innerhalb eines Clusters.' 
+---
+= Netzwerkschnittstelle/Performance Explorer
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Seite Network Interface/Performance Explorer bietet eine detaillierte Performance-Übersicht für alle Netzwerkschnittstellen (LIFs) innerhalb eines Clusters.
+
+Auf der Seite Network Interface/Performance Explorer können Sie die Leistung der Netzwerkschnittstelle während eines bestimmten Zeitraums verfolgen und vergleichen. So können Sie Fehler beheben und die Leistung Ihrer Netzwerkschnittstelle optimieren.
+
+Mit der Funktion „Ansicht und Vergleich“ können Sie die Leistung dieser Netzwerkschnittstelle mit vergleichen:
+
+* Andere Netzwerkschnittstellen, die sich im gleichen Port befinden
+* Anderen Netzwerkschnittstellen, die sich auf derselben Storage-VM befinden
+* Der Port, auf dem sich die Netzwerkschnittstelle befindet
+* Die Storage-VM, auf der sich die Netzwerkschnittstelle befindet
+
+
+Auf der Seite Network Interface/Performance Explorer können Sie:
+
+* Zeigen Sie Probleme mit Schwellenwerten und deren Details an
+* Nachverfolgung und Vergleich der Performance-Daten der Netzwerkschnittstelle
+* Untersuchung und Behebung von Problemen mit Schwellenwerten
+* Untersuchung und Behebung von Performance-Problemen
+

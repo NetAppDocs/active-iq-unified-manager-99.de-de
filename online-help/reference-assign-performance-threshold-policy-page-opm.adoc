@@ -1,0 +1,20 @@
+---
+permalink: online-help/reference-assign-performance-threshold-policy-page-opm.html 
+sidebar: sidebar 
+keywords:  
+summary: Auf der Seite „Performance Threshold Policy zuweisen“ können Sie einem oder mehreren Speicherobjekten eine Richtlinie für Leistungsschwellenwerte zuweisen. 
+---
+= Seite „Richtlinie für Leistungsschwellenwert zuweisen“
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Auf der Seite „Performance Threshold Policy zuweisen“ können Sie einem oder mehreren Speicherobjekten eine Richtlinie für Leistungsschwellenwerte zuweisen.
+
+Die Liste der Richtlinien wird nur mit den Richtlinien ausgefüllt, die für den ausgewählten Storage-Objekttyp gültig sind.
+
+Sie wählen die Richtlinie aus, die auf das Objekt oder die Objekte angewendet werden soll, und klicken dann auf *Richtlinie anwenden*.
+
+In einigen Fällen kann eine Fehlermeldung zurückgegeben werden, wenn Sie versuchen, eine Richtlinie anzuwenden, wenn beispielsweise eine Kombinationsrichtlinie auf ein FlexGroup Volume angewendet wird, in dem der zweite Zähler entweder einen Node oder ein Aggregatobjekt beinhaltet. Da FlexGroup Volumes über mehrere Nodes und Aggregate verteilt werden können, ist dieser Vorgang nicht zulässig.

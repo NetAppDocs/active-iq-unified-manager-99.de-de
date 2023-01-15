@@ -1,0 +1,85 @@
+---
+permalink: online-help/reference-cluster-health-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die folgenden Felder sind in der Ansicht Systemzustand: Alle Cluster verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.' 
+---
+= Felder für den Cluster-Systemzustand
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die folgenden Felder sind in der Ansicht Systemzustand: Alle Cluster verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.
+
+* *Status*
++
+Ein Symbol, das den aktuellen Status des Clusters angibt. Der Status kann kritisch sein (image:../media/sev-critical-um60.png[""]), Fehler (image:../media/sev-error-um60.png[""]), Warnung (image:../media/sev-warning-um60.png[""]Oder normal (image:../media/sev-normal-um60.png[""]).
+
+* * Cluster*
++
+Der Name des Clusters. Sie können auf den Cluster-Namen klicken, um zur Seite mit den Integritätsdetails dieses Clusters zu gelangen.
+
+* *Cluster-FQDN*
++
+Der vollständig qualifizierte Domänenname (FQDN) des Clusters.
+
+* *Kommunikationsstatus*
++
+Gibt an, ob das Cluster erreichbar ist oder nicht.
+
++
+Der Status wird als gut angezeigt, wenn das Cluster erreichbar ist. Wenn das Cluster nicht erreichbar ist oder die Anmeldeinformationen ungültig sind, wird der Status als nicht erreichbar angezeigt.
+
+* *Systemzustand*
++
+Allgemeine Informationen zum Status des Clusters, die anhand des Status verschiedener Cluster-Subsysteme berechnet werden.
+
++
+Mögliche Werte sind OK, OK mit Unterdrückten, herabgestuft und Komponenten nicht erreichbar. Diese Werte werden von den Zustandsüberwachungen in der ONTAP Software bestimmt.
+
+* *Letzte Aktualisierte Zeit*
++
+Der Zeitstempel, an dem die Überwachungsmuster des Clusters zuletzt erfasst wurden.
+
+* *FIPS aktiviert*
++
+Gibt an, ob der FIPS-Modus auf dem Cluster aktiviert ist
+
+* *Betriebssystemversion*
++
+Die ONTAP Version, in der das Cluster ausgeführt wird.
+
++
+Wenn im Cluster die Nodes unterschiedliche Versionen von ONTAP ausführen, wird die früheste ONTAP-Version angezeigt.
+
+* *Anzahl Knoten*
++
+Anzahl der Nodes, die zum Cluster gehören.
+
+* *Hostname oder IP-Adresse*
++
+Der FQDN, der Kurzname oder die IP-Adresse der Cluster-Management-LIF, die zur Verbindung mit dem Cluster verwendet wird.
+
+* *Verwendeter Logischer Raum*
++
+Die tatsächliche Größe der Daten, die auf allen Aggregaten auf diesem Cluster gespeichert werden, ohne dabei die Einsparungen durch die ONTAP Storage-Effizienztechnologien zu verwenden.
+
+* * Persönlichkeit*
++
+Gibt an, ob es sich um ein für All-SAN-Arrays konfiguriertes Cluster handelt.
+
+* *Seriennummer*
++
+Die Seriennummer des Clusters.
+
+* *Kontakt*
++
+Die Kontaktinformationen des Clusters.
+
+* *Lage*
++
+Der Speicherort des Clusters.
+
+

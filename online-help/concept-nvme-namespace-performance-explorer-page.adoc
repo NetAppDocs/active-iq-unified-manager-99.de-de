@@ -1,0 +1,35 @@
+---
+permalink: online-help/concept-nvme-namespace-performance-explorer-page.html 
+sidebar: sidebar 
+keywords:  
+summary: Die Seite des NVMe Namespace/Performance Explorer bietet einen detaillierten Überblick über die Performance aller NVMe Namespaces innerhalb eines Clusters. 
+---
+= Seite „NVMe Namespace/Performance Explorer“
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Seite des NVMe Namespace/Performance Explorer bietet einen detaillierten Überblick über die Performance aller NVMe Namespaces innerhalb eines Clusters.
+
+Auf der Seite des NVMe Namespace/Performance Explorers können Sie die NVMe Namespace Performance für einen bestimmten Zeitraum verfolgen und vergleichen. Dadurch lassen sich Fehler beheben und die Performance Ihrer Namespaces optimieren.
+
+Mithilfe der Funktion „View and Compare“ können Sie die Performance dieses NVMe Namespace mit vergleichen:
+
+* Das Volume, auf dem sich der Namespace befindet
+* Andere Namespaces, die auf dem gleichen Volume sind
+* Andere Namespaces, die auf der gleichen Storage-VM liegen
+
+
+Auf der Seite NVMe Namespace/Performance Explorer können Sie:
+
+* Zeigen Sie Probleme mit Schwellenwerten und deren Details an
+* Verfolgen und Vergleichen von Namespace-Performance-Daten
+* Untersuchung und Behebung von Problemen mit Schwellenwerten
+* Untersuchung und Behebung von Performance-Problemen
+* Starten Sie System Manager, um eine Konfigurationsänderung für den Namespace vorzunehmen
++
+Die Schaltfläche *NVMe Namespace konfigurieren* steht zur Verfügung, wenn Sie mit der Rolle „Anwendungsadministrator“ oder „Speicheradministrator“ bei Unified Manager angemeldet sind, und wenn Sie ONTAP 9.5 oder höher verwenden.
+
+

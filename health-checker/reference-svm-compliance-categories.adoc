@@ -1,0 +1,107 @@
+---
+permalink: health-checker/reference-svm-compliance-categories.html 
+sidebar: sidebar 
+keywords: storage VM compliance 
+summary: 'Diese Tabelle beschreibt die Sicherheits-Compliance-Kriterien für Storage Virtual Machine \(SVM\), die von Unified Manager bewertet werden, die Empfehlung von NetApp und ob sich der Parameter auf die allgemeine Feststellung einer Beschwerde bzw. nicht auf eine Beschwerde bei der SVM auswirkt.' 
+---
+= SVM-Compliance-Kategorien
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Diese Tabelle beschreibt die Compliance-Kriterien für die Storage Virtual Machine (SVM), die von Unified Manager bewertet werden, die NetApp Empfehlung und ob der Parameter sich auf die allgemeine Feststellung einer Beschwerde bzw. nicht auf eine Beschwerde des SVM auswirkt.
+
+[cols="4*"]
+|===
+| Parameter | Beschreibung | Empfehlung | Beeinträchtigt SVM-Compliance 
+
+
+ a| 
+Überwachungsprotokoll
+ a| 
+Gibt an, ob die Überwachungsprotokollierung aktiviert oder deaktiviert ist.
+ a| 
+Aktiviert
+ a| 
+Ja.
+
+
+
+ a| 
+Unsichere SSH-Einstellungen
+ a| 
+Gibt an, ob SSH unsichere Chiffren verwendet, z. B. Chiffren, die mit beginnen `cbc*`.
+ a| 
+Nein
+ a| 
+Ja.
+
+
+
+ a| 
+Anmelde-Banner
+ a| 
+Zeigt an, ob das Anmeldebanner für Benutzer, die auf SVMs im System zugreifen, aktiviert oder deaktiviert ist.
+ a| 
+Aktiviert
+ a| 
+Ja.
+
+
+
+ a| 
+LDAP-Verschlüsselung
+ a| 
+Gibt an, ob LDAP-Verschlüsselung aktiviert oder deaktiviert ist.
+ a| 
+Aktiviert
+ a| 
+Nein
+
+
+
+ a| 
+NTLM-Authentifizierung
+ a| 
+Gibt an, ob die NTLM-Authentifizierung aktiviert oder deaktiviert ist.
+ a| 
+Aktiviert
+ a| 
+Nein
+
+
+
+ a| 
+LDAP Payload-Signatur
+ a| 
+Gibt an, ob LDAP-Payload-Signatur aktiviert oder deaktiviert ist.
+ a| 
+Aktiviert
+ a| 
+Nein
+
+
+
+ a| 
+CHAP-Einstellungen
+ a| 
+Gibt an, ob CHAP aktiviert oder deaktiviert ist.
+ a| 
+Aktiviert
+ a| 
+Nein
+
+
+
+ a| 
+Kerberos V5
+ a| 
+Gibt an, ob die Kerberos-V5-Authentifizierung aktiviert oder deaktiviert ist.
+ a| 
+Aktiviert
+ a| 
+Nein
+
+|===

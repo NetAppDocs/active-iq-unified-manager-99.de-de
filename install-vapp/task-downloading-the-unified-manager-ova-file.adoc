@@ -1,0 +1,36 @@
+---
+permalink: install-vapp/task-downloading-the-unified-manager-ova-file.html 
+sidebar: sidebar 
+keywords:  
+summary: Laden Sie die Installationsdatei für Unified Manager von der NetApp Support Site herunter, um Unified Manager als virtuelle Appliance zu implementieren. 
+---
+= Herunterladen der Installationsdatei für Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Laden Sie die Installationsdatei für Unified Manager von der NetApp Support Site herunter, um Unified Manager als virtuelle Appliance zu implementieren.
+
+
+
+== Bevor Sie beginnen
+
+Sie sollten die Anmeldedaten für die NetApp Support-Website besitzen.
+
+
+
+== Über diese Aufgabe
+
+Die Installationsdatei ist ein `OVA` Datei, die die in einer virtuellen Appliance konfigurierte Unified Manager Software enthält.
+
+
+
+== Schritte
+
+. Melden Sie sich auf der NetApp Support Site an und navigieren Sie zur Seite *Download* für Unified Manager: https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp Support Website"]
+. Wählen Sie die erforderliche Version von Unified Manager aus, und akzeptieren Sie die Endbenutzer-Lizenzvereinbarung (Endbenutzer License Agreement, EULA).
+. Laden Sie herunter, und speichern Sie die `OVA` Installieren Sie die Datei für VMware vSphere in einem lokalen Verzeichnis oder Netzwerkverzeichnis, auf das Ihr vSphere-Client zugreifen kann.
+. Überprüfen Sie die Prüfsumme, um sicherzustellen, dass die Software ordnungsgemäß heruntergeladen wurde.
+

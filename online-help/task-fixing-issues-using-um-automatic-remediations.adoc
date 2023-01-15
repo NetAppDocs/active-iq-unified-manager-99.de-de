@@ -1,0 +1,31 @@
+---
+permalink: online-help/task-fixing-issues-using-um-automatic-remediations.html 
+sidebar: sidebar 
+keywords: fix it,fix issues 
+summary: Es gibt bestimmte Ereignisse, die Unified Manager ausführlich diagnostizieren und über die Schaltfläche „Fix it“ eine einzige Lösung anbieten kann. Wenn verfügbar, werden diese Auflösungen im Dashboard, auf der Seite Ereignisdetails und aus der Auswahl Workload Analysis im linken Navigationsmenü angezeigt. 
+---
+= Behebung von Problemen durch automatische Problembehebung mit Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es gibt bestimmte Ereignisse, die Unified Manager gründlich diagnostizieren und eine einzige Lösung mit der Schaltfläche * Fix IT* bereitstellen kann. Wenn verfügbar, werden diese Auflösungen im Dashboard, auf der Seite Ereignisdetails und aus der Auswahl Workload Analysis im linken Navigationsmenü angezeigt.
+
+
+
+== Über diese Aufgabe
+
+Die meisten Ereignisse haben eine Vielzahl von möglichen Auflösungen, die auf der Seite Ereignisdetails angezeigt werden, so dass Sie die beste Lösung mit ONTAP System Manager oder der ONTAP CLI implementieren können. Eine Aktion *Beheben Sie es* ist verfügbar, wenn Unified Manager festgestellt hat, dass es eine einzige Lösung gibt, um das Problem zu beheben, und dass es mit einem ONTAP CLI-Befehl behoben werden kann.
+
+
+
+== Schritte
+
+. Um Ereignisse anzuzeigen, die über das *Dashboard* behoben werden können, klicken Sie auf *Dashboard*.
++
+image::../media/management-actions.png[Managementaktionen]
+
+. Um Probleme zu beheben, die Unified Manager beheben kann, klicken Sie auf die Schaltfläche *Fix IT*. Um ein Problem zu beheben, das auf mehreren Objekten vorhanden ist, klicken Sie auf die Schaltfläche * Alle beheben*.
+

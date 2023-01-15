@@ -1,0 +1,46 @@
+---
+permalink: online-help/reference-database-backup-page.html 
+sidebar: sidebar 
+keywords:  
+summary: Die Seite Datenbank-Backup zeigt eine Liste der von Unified Manager erstellten Backups an und enthält Informationen über den Backup-Namen, die Größe und die Erstellungszeit. 
+---
+= Seite „Datenbank-Backup“
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Seite Datenbank-Backup zeigt eine Liste der von Unified Manager erstellten Backups an und enthält Informationen über den Backup-Namen, die Größe und die Erstellungszeit.
+
+Sie müssen über die Rolle „Anwendungsadministrator“ oder „Speicheradministrator“ verfügen.
+
+
+
+== Listenansicht
+
+In der Listenansicht werden Informationen über die verfügbaren Backupdateien angezeigt.
+
+* *Name*
++
+Name des Backups.
+
+* *Größe*
++
+Größe des Backups.
+
+* *Erstellungszeit*
++
+Erstellungsdatum und -Uhrzeit des Backups.
+
+
+
+
+
+== Befehlsschaltflächen
+
+* *Backup-Einstellungen*
++
+Zeigt das Dialogfeld Backup-Einstellungen an, in dem Sie einen Backup-Pfad, eine Aufbewahrungszahl und einen Backup-Zeitplan festlegen können.
+
+

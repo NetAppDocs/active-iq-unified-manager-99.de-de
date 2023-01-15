@@ -1,0 +1,16 @@
+---
+permalink: config/concept-configuring-um-backup.html 
+sidebar: sidebar 
+keywords:  
+summary: Sie können die Backup-Fähigkeit in Unified Manager über eine Reihe von Konfigurationsschritten konfigurieren, die auf den Host-Systemen und mit der Wartungskonsole durchgeführt werden. 
+---
+= Konfiguration des Unified Manager Backups
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können die Backup-Fähigkeit in Unified Manager über eine Reihe von Konfigurationsschritten konfigurieren, die auf den Host-Systemen und mit der Wartungskonsole durchgeführt werden.
+
+Informationen zu den Konfigurationsschritten finden Sie unter „`Managing Backup and Restore Operations`“ in _Active IQ® Unified Manager Workflow Guide for Managing Cluster Health_.

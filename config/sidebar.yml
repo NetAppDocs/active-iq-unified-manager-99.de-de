@@ -1,0 +1,105 @@
+---
+section: config
+title: Durchführung von Konfigurations- und Administrationsaufgaben
+entries:
+- title: Active IQ Unified Manager wird konfiguriert
+  url: "/config/concept-configuring-unified-manager.html"
+  entries:
+  - title: Überblick über die Konfigurationssequenz
+    url: "/config/concept-overview-of-the-configuration-sequence.html"
+  - title: Zugriff auf die Web-Benutzeroberfläche von Unified Manager
+    url: "/config/task-accessing-oncommand-unified-manager-web-ui.html"
+  - title: Die Ersteinrichtung der Unified Manager-Weboberfläche durchführen
+    url: "/config/task-performing-the-initial-setup-of-the-unified-manager-web-ui.html"
+  - title: Hinzufügen von Clustern
+    url: "/config/task-adding-clusters.html"
+  - title: Konfigurieren von Unified Manager zum Senden von Warnmeldungen
+    url: "/config/task-configuring-unified-manager-to-send-alert-notifications.html"
+    entries:
+    - title: Konfigurieren von Einstellungen für Ereignisbenachrichtigungen
+      url: "/config/task-configuring-event-notification-settings.html"
+    - title: Aktivieren der Remote-Authentifizierung
+      url: "/config/task-enabling-remote-authentication.html"
+    - title: Deaktivieren verschachtelter Gruppen von der Remote-Authentifizierung
+      url: "/config/task-disabling-nested-groups-from-remote-authentication.html"
+    - title: Hinzufügen von Authentifizierungsservern
+      url: "/config/task-adding-authentication-servers.html"
+    - title: Die Konfiguration der Authentifizierungsserver wird getestet
+      url: "/config/task-testing-the-configuration-of-authentication-servers-um-6-0.html"
+    - title: Benutzer hinzufügen
+      url: "/config/task-adding-users.html"
+    - title: Hinzufügen von Meldungen
+      url: "/config/task-adding-alerts.html"
+  - title: EMS-Ereignisse, die automatisch dem Unified Manager hinzugefügt werden
+    url: "/config/reference-ems-events-that-are-added-automatically-to-unified-manager.html"
+  - title: Abonnieren von ONTAP EMS-Veranstaltungen
+    url: "/config/task-subscribing-to-ontap-ems-events.html"
+  - title: Verwalten von SAML-Authentifizierungseinstellungen
+    url: "/config/concept-managing-saml-authentication-settings-um.html"
+    entries:
+    - title: Anforderungen an Identitätsanbieter
+      url: "/config/reference-identity-provider-requirements-um.html"
+    - title: Aktivieren der SAML-Authentifizierung
+      url: "/config/task-enabling-saml-authentication-um.html"
+  - title: Ändern des lokalen Benutzerpassworts
+    url: "/config/task-changing-the-local-user-password.html"
+  - title: Einstellen des Timeout für die Inaktivität der Sitzung
+    url: "/config/task-setting-the-session-inactivity-timeout.html"
+  - title: Ändern des Unified Manager-Host-Namens
+    url: "/config/concept-changing-the-unified-manager-host-name.html"
+    entries:
+    - title: Ändern des Host-Namens der virtuellen Unified Manager-Appliance
+      url: "/config/task-changing-the-unified-manager-host-name-on-vmware.html"
+      entries:
+      - title: Erstellen eines HTTPS-Sicherheitszertifikats
+        url: "/config/task-generating-an-https-security-certificate-ocf.html"
+      - title: Starten Sie die Virtual Machine von Unified Manager neu
+        url: "/config/task-restarting-the-unified-manager-virtual-machine.html"
+    - title: Ändern des Unified Manager Host-Namens auf Linux-Systemen
+      url: "/config/task-changing-the-unified-manager-host-name-on-rhel-or-centos.html"
+  - title: Aktivieren und Deaktivieren des richtlinienbasierten Storage-Managements
+    url: "/config/task-enabling-and-disabling-policy-based-storage-management.html"
+- title: Konfiguration des Unified Manager Backups
+  url: "/config/concept-configuring-um-backup.html"
+- title: Verwenden der Wartungskonsole
+  url: "/config/task-using-the-maintenance-console.html"
+  entries:
+  - title: Welche Funktionen bietet die Wartungskonsole
+    url: "/config/concept-what-functionality-the-maintenance-console-provides.html"
+  - title: Was der Wartungsbenutzer tut
+    url: "/config/concept-what-the-maintenance-user-does.html"
+  - title: Funktionen von Benutzern zur Diagnose
+    url: "/config/concept-what-the-diagnostic-user-does.html"
+  - title: Zugriff auf die Wartungskonsole
+    url: "/config/task-accessing-the-maintenance-console.html"
+  - title: Zugriff auf die Wartungskonsole über die vSphere VM-Konsole
+    url: "/config/task-accessing-the-maintenance-console-using-vsphere.html"
+  - title: Menüs für Wartungskonsolen
+    url: "/config/concept-maintenance-console-menu.html"
+    entries:
+    - title: Menü Netzwerkkonfiguration
+      url: "/config/reference-network-configuration-menu.html"
+    - title: Menü Systemkonfiguration
+      url: "/config/reference-system-configuration-menu.html"
+    - title: Menü „Support und Diagnose“
+      url: "/config/reference-support-and-diagnostics-menu.html"
+    - title: Zusätzliche Menüoptionen
+      url: "/config/reference-additional-menu-options.html"
+  - title: Ändern des Wartungsbenutzerkennworts unter Windows
+    url: "/config/task-changing-the-maintenance-user-password-on-windows.html"
+  - title: Ändern des umadmin-Passworts auf Linux-Systemen
+    url: "/config/task-changing-the-umadmin-password-on-rhel.html"
+  - title: Ändern der Ports Unified Manager verwendet für HTTP- und HTTPS-Protokolle
+    url: "/config/task-changing-the-ports-um-uses-for-http-and-https-protocols.html"
+  - title: Hinzufügen von Netzwerkschnittstellen
+    url: "/config/task-adding-additional-network-interfaces.html"
+  - title: Hinzufügen von Festplattenspeicher zum Datenbankverzeichnis von Unified
+      Manager
+    url: "/config/concept-adding-disk-space-to-the-unified-manager-database-directory.html"
+    entries:
+    - title: Hinzufügen von Speicherplatz zum Datenverzeichnis des Linux-Hosts
+      url: "/config/task-adding-space-to-the-data-directory-of-the-unified-manager-red-hat-enterprise-linux-host.html"
+    - title: Hinzufügen von Speicherplatz zur Datenfestplatte der virtuellen VMware-Maschine
+      url: "/config/task-adding-space-to-the-data-disk-of-the-vmware-virtual-machine.html"
+    - title: Hinzufügen von Speicherplatz zum logischen Laufwerk des Microsoft Windows-Servers
+      url: "/config/task-adding-space-to-the-data-disk-of-the-microsoft-windows-server.html"

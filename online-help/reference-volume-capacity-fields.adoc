@@ -1,0 +1,159 @@
+---
+permalink: online-help/reference-volume-capacity-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die folgenden Felder sind in der Kapazität verfügbar: Alle Volumes anzeigen und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.' 
+---
+= Felder für Volume-Kapazität
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die folgenden Felder sind in der Kapazität verfügbar: Alle Volumes anzeigen und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.
+
+* *Lautstärke*
++
+Der Name des Volume.
+
+* * Tägliche Zuwachsrate %*
++
+Die Wachstumsrate, die alle 24 Stunden im Volumen stattfindet.
+
+* *Tage Bis Voll*
++
+Die geschätzte Anzahl der verbleibenden Tage, bis die volle Kapazität des Volume erreicht ist.
+
+* * Verfügbare Daten %*
++
+Die verfügbare Datenkapazität in einem Volume als Prozentsatz.
+
+* *Verfügbare Datenkapazität*
++
+Die verfügbare Datenkapazität in einem Volume.
+
+* *Verwendete Daten %*
++
+Die verwendeten Daten in einem Volume als Prozentsatz.
+
+* *Genutzte Datenkapazität*
++
+Der genutzten Datenkapazität in einem Volume.
+
+* *Gesamtkapazität Der Daten*
++
+Die Gesamtkapazität (genutzter plus verfügbarer) Daten in einem Volume.
+
+* *Verwendeter Logischer Raum*
++
+Der logische Speicherplatz, der von den Daten in diesem Volume verwendet wird, ohne die Einsparungen durch ONTAP Storage-Effizienztechnologien zu verwenden.
+
+* *Snapshot-Überlauf %*
++
+Der Prozentsatz des Speicherplatzes, der von Snapshot Kopien verbraucht wird.
+
+* *Snapshot Reserve Verfügbar %*
++
+Die Menge an Speicherplatz, die als Prozentsatz für Snapshot Kopien im Volume verfügbar ist.
+
+* *Snapshot Reserve Verfügbare Kapazität*
++
+Die Menge an Speicherplatz, der für Snapshot Kopien im Volume verfügbar ist.
+
+* *Snapshot Reserve Verwendet %*
++
+Die Menge an Speicherplatz, der von Snapshot Kopien im Volume als Prozentsatz verwendet wird.
+
+* *Verwendete Snapshot-Reserve Kapazität*
++
+Die Menge an Speicherplatz, der von Snapshot Kopien im Volume verwendet wird.
+
+* *Snapshot Reserve Gesamtkapazität*
++
+Zeigt die Gesamtkapazität der Snapshot Kopien im Volume an.
+
+* *Quote Zugesagt Kapazität*
++
+Der Speicherplatz, der für Kontingente im Volume reserviert ist.
+
+* *Quote Überzuviel Kapazität*
++
+Die Menge an Speicherplatz, die für Quoten verwendet werden kann, bevor das System das überzustrapaziertes Ereignis des Volume Quota generiert.
+
+* *Gesamtanzahl Der Inodes*
++
+Die Anzahl der Inodes im Volume.
+
+* *Auslastung Von Nodes %*
++
+Der Prozentsatz des in dem Volume verwendeten Inode-Speicherplatzes.
+
+* *Thin Provisioning*
++
+Gibt an, ob die Platzgarantie für das ausgewählte Volume festgelegt ist. Gültige Werte sind Ja und Nein
+
+* * Raumgarantie*
++
+Die Storage-Garantie-Option, die für das Volume erforderlich ist.
+
+* *Autogrow*
++
+Gibt an, ob das Volume automatisch mit der Größe wächst, wenn der Speicherplatz erschöpft ist
+
+* *Snapshot Autodelete*
++
+Gibt an, ob das automatische Löschen von Snapshot Kopien aktiviert oder deaktiviert ist.
+
+* *Deduplizierung*
++
+Gibt an, ob die Deduplizierung für das Volume aktiviert oder deaktiviert ist
+
+* *Komprimierung*
++
+Gibt an, ob die Komprimierung für das Volume aktiviert oder deaktiviert ist
+
+* *Bundesland*
++
+Der Status des zu exportierenden Volumes.
+
+* *Schutzrolle*
++
+Die Schutzrolle, die für das Volume festgelegt ist.
+
+* *SnapLock Typ*
++
+Gibt an, ob es sich um ein SnapLock-Volume oder ein nicht-SnapLock-Volume handelt.
+
+* *SnapLock Ablaufdatum*
++
+Das Verfalldatum des SnapLock.
+
+* *Tiering-Richtlinie*
++
+Die Tiering-Richtlinie für das Volume. Gültig bei Implementierung nur in FabricPool-fähigen Aggregaten
+
+* *Caching-Richtlinie*
++
+Die dem ausgewählten Volume zugeordnete Caching-Richtlinie
+
++
+Diese Richtlinie gibt Informationen darüber, wie Flash Pool Caching für das Volume stattfindet. Weitere Informationen zu Caching-Richtlinien finden Sie in der Ansicht „Systemzustand: Alle Volumes“.
+
+* *Cache-Aufbewahrungspriorität*
++
+Die Priorität, die für die Aufbewahrung von zwischengespeicherten Pools verwendet wird.
+
+* *Storage VM*
++
+Der Name der Storage Virtual Machine (SVM), die das Volume enthält.
+
+* * Cluster*
++
+Der Name des Clusters, auf dem sich das Volume befindet. Sie können auf den Cluster-Namen klicken, um zur Seite mit den Integritätsdetails dieses Clusters zu gelangen.
+
+* *Cluster-FQDN*
++
+Der vollständig qualifizierte Domänenname (FQDN) des Clusters.
+
+

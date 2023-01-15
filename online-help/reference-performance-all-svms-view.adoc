@@ -1,0 +1,27 @@
+---
+permalink: online-help/reference-performance-all-svms-view.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die Ansicht „Performance: Alle Storage VMs“ gibt einen Überblick über die Performance-Ereignisse, Daten und Konfigurationsinformationen für jede Storage Virtual Machine \(SVM\), die von einer Instanz von Unified Manager überwacht wird. So können Sie die Performance Ihrer SVMs schnell überwachen und Performance-Probleme sowie Schwellwerte beheben.' 
+---
+= Performance: Ansicht aller Storage VMs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Ansicht „Performance: Alle Storage VMs“ gibt einen Überblick über die Performance-Ereignisse, Daten und Konfigurationsinformationen für jede Storage Virtual Machine (SVM), die durch eine Instanz von Unified Manager überwacht wird. So können Sie die Performance Ihrer SVMs schnell überwachen und Performance-Probleme sowie Schwellwerte beheben.
+
+Standardmäßig werden Objekte auf den Ansichtsseiten nach Wichtigkeit des Ereignisses sortiert. Objekte mit kritischen Ereignissen werden zuerst aufgeführt und Objekte mit Warnmeldungen werden als zweites aufgeführt. Dies bietet eine unmittelbare visuelle Darstellung von Problemen, die behoben werden müssen.
+
+Mit den Steuerelementen oben auf der Seite können Sie eine bestimmte Ansicht auswählen (für Zustand, Leistung, Kapazität usw.). Führen Sie Suchen durch, um bestimmte Objekte zu finden, erstellen und anwenden Sie Filter, um die Liste der angezeigten Daten einzugrenzen, Spalten auf der Seite hinzuzufügen/zu entfernen/neu zu ordnen, Und exportieren Sie die Daten auf der Seite in A `.csv`, `.pdf`, Oder `.xlsx` Datei: Nachdem Sie die Seite angepasst haben, können Sie die Ergebnisse als benutzerdefinierte Ansicht speichern und anschließend einen Bericht dieser Daten erstellen und regelmäßig per E-Mail senden.
+
+Über die Schaltflächen *Performance Threshold Policy* und *Clear Performance Threshold Policy* können Sie Schwellenwertrichtlinien auf den Objektbestandsseiten zuweisen oder löschen.
+
+[NOTE]
+====
+Die SVMs, die auf dieser Seite aufgeführt werden, umfassen nur Data and Cluster SVMs. Unified Manager verwendet bzw. zeigt keine Admin- oder Node-SVMs an.
+
+====
+Siehe xref:reference-svm-performance-fields.adoc[Felder für die SVM-Performance] Für Beschreibungen aller Felder auf dieser Seite.

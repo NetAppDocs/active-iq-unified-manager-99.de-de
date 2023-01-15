@@ -1,0 +1,83 @@
+---
+permalink: online-help/reference-backup-settings-dialog-box.html 
+sidebar: sidebar 
+keywords:  
+summary: Im Dialogfeld Backup-Einstellungen werden Einstellungen für MySQL und NetApp Snapshot Backup konfiguriert. Abhängig vom konfigurierten Backup werden im Dialogfeld Backup-Einstellungen zugehörige Felder angezeigt. Für ein Backup mit MySQL Datenbanken können Sie den Backup-Zeitplan, die Aufbewahrungsanzahl und den Backup-Pfad für eine ausgewählte Active IQ Unified Manager Instanz definieren. 
+---
+= Dialogfeld „Backup-Einstellungen“
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Im Dialogfeld Backup-Einstellungen werden Einstellungen für MySQL und NetApp Snapshot Backup konfiguriert. Abhängig vom konfigurierten Backup werden im Dialogfeld Backup-Einstellungen zugehörige Felder angezeigt. Für ein Backup mit MySQL Datenbanken können Sie den Backup-Zeitplan, die Aufbewahrungsanzahl und den Backup-Pfad für eine ausgewählte Active IQ Unified Manager Instanz definieren.
+
+Sie können die folgenden Datenbank-Backup-Einstellungen ändern:
+
+* * CLUSTER*
++
+Sie sollten die Cluster Management IP des Storage-Systems bereitstellen, auf dem Unified Manager Daten gehostet werden.
+
+* *LAUTSTÄRKE*
++
+Sie sollten den Namen des Volumes angeben, das die dedizierte LUN enthält, um Unified Manager Daten zu hosten.
+
+* *STORAGE-VM*
++
+Sie sollten den Namen der Storage-VM angeben, auf der sich das Volume befindet, die die dedizierte LUN zum Hosten von Unified Manager Daten enthält.
+
+* *LUN*
++
+Sie sollten den Namen der LUN angeben, wo die Unified Manager Daten gehostet werden, wenn ein Backup dem Typ NetApp Snapshot entspricht.
+
+* *MOUNT-PFAD*
++
+Wenn Sie die Backup-Methode für die MySQL-Datenbank-Dump verwenden, gibt dieses Feld den Pfad an den Speicherort an, an dem Sie die Sicherungsdateien speichern. Bei Verwendung der Snapshot Backup-Methode zeigt dieser Speicherort das Cluster, die Storage VM und das Volume an, auf dem das Backup gespeichert wird.
+
++
+Die folgende Tabelle gibt das Format des Backup-Pfads und die Standardstandorte für verschiedene Betriebssysteme an:
+
++
+[cols="2*"]
+|===
+| Host-Betriebssystem | Format des Backup-Pfads 
+
+
+ a| 
+Virtuelle Appliance
+ a| 
+`/opt/netapp/data/ocum-backup`
+
+
+
+ a| 
+Red hat Enterprise Linux oder CentOS Linux
+ a| 
+`/data/ocum-backup`
+
+
+
+ a| 
+Microsoft Windows
+ a| 
+Bei Windows müssen Sie den Mount-Pfad angeben. Wenn der Mount-Pfad beispielsweise Laufwerk "`D`" ist, sollten Sie den Mount-Pfad als angeben `D:`
+
+|===
+* *ANZAHL DER AUFBEWAHRUNG*
++
+Gibt die maximale Anzahl von Backups an, die von Unified Manager beibehalten werden sollen. Der Standardwert ist 10.
+
+* *Tagesablauf*
++
+Gibt den täglichen Backup-Zeitplan mit der Zeit an.
+
+* *Geplante Woche*
++
+Gibt den wöchentlichen Backup-Zeitplan mit dem Tag und der Uhrzeit an.
+
+* *Keine*
++
+Gibt an, dass keine Backups erstellt werden.
+
+

@@ -1,0 +1,30 @@
+---
+permalink: online-help/reference-annotate-svm-dialog-box.html 
+sidebar: sidebar 
+keywords:  
+summary: Im Dialogfeld Storage VM Annotate können Sie Storage-Objekte manuell annotieren. Sie können entweder eine einzelne SVM oder mehrere SVMs auswählen und in der vorhandenen Liste mit Annotationen ein bestimmtes Wertpaar mit einem bestimmten Wert versehen. 
+---
+= Dialogfeld „SVM mit Anmerkungen versehen“
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Im Dialogfeld Storage VM Annotate können Sie Storage-Objekte manuell annotieren. Sie können entweder eine einzelne SVM oder mehrere SVMs auswählen und in der vorhandenen Liste mit Annotationen ein bestimmtes Wertpaar mit einem bestimmten Wert versehen.
+
+Sie müssen über die Rolle „Anwendungsadministrator“ oder „Speicheradministrator“ verfügen.
+
+* *Anmerkung=Wertpaare*
++
+Hiermit können Sie die erforderliche Beschriftung für die ausgewählte SVM auswählen.
+
+* *Anwenden*
++
+Wendet die ausgewählte Anmerkung auf die SVM an.
+
+* *Abbrechen*
++
+Schließt das Dialogfeld Storage VM annoate, ohne Ihre Änderungen zu speichern.
+
+

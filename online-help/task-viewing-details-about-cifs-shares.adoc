@@ -1,0 +1,61 @@
+---
+permalink: online-help/task-viewing-details-about-cifs-shares.html 
+sidebar: sidebar 
+keywords: SMB,CIFS 
+summary: 'Sie können Details zu allen SMB-/CIFS-Freigaben anzeigen, z. B. Freigabename, Verbindungspfad, mit Objekten, Sicherheitseinstellungen und für die Freigabe definierten Exportrichtlinien. Verwenden Sie die Ansicht „Systemzustand“: Alle SMB-Freigaben“, um alle SMB-Freigaben auf allen überwachten Clustern anzuzeigen, und zeigen Sie auf der Seite „Storage VM/Health Details“ alle SMB-Freigaben auf einer bestimmten Storage Virtual Machine \ (SVM\) an.' 
+---
+= Anzeigen von Details zu SMB/CIFS-Freigaben
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können Details zu allen SMB-/CIFS-Freigaben anzeigen, z. B. Freigabename, Verbindungspfad, mit Objekten, Sicherheitseinstellungen und für die Freigabe definierten Exportrichtlinien. Nutzung der Ansicht „Systemzustand“: Alle SMB-Freigaben anzeigen, um alle SMB-Freigaben auf allen überwachten Clustern anzuzeigen. Auf der Seite Storage VM/Health Details können Sie alle SMB-Freigaben auf einer bestimmten Storage Virtual Machine (SVM) anzeigen.
+
+
+
+== Bevor Sie beginnen
+
+* Die CIFS-Lizenz muss auf dem Cluster aktiviert sein.
+* Netzwerkschnittstellen, die die SMB/CIFS-Freigaben unterstützen, müssen konfiguriert werden.
+* Sie müssen über die Rolle „Operator“, „Application Administrator“ oder „Storage Administrator“ verfügen.
+
+
+
+
+== Über diese Aufgabe
+
+[NOTE]
+====
+Freigaben in Ordnern werden nicht angezeigt.
+
+====
+
+
+== Schritte
+
+. Führen Sie im linken Navigationsbereich die folgenden Schritte aus, je nachdem, ob Sie alle SMB/CIFS-Freigaben oder nur die Freigaben für eine bestimmte SVM anzeigen möchten.
+
+
+[cols="2*"]
+|===
+| An... | Führen Sie die folgenden Schritte aus... 
+
+
+ a| 
+Alle SMB-/CIFS-Freigaben anzeigen
+ a| 
+Klicken Sie auf *Storage* > *SMB Shares*
+
+
+
+ a| 
+Anzeigen von SMB-/CIFS-Freigaben für eine einzelne SVM
+ a| 
+. Klicken Sie auf *Storage* > *Storage VMs*
+. Klicken Sie auf die SVM, deren Details zur SMB/CIFS-Freigabe angezeigt werden sollen.
+. Klicken Sie auf der Seite Storage VM / Health Details auf die Registerkarte *SMB Shares*.
+
+
+|===

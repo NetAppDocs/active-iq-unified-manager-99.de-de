@@ -1,0 +1,24 @@
+---
+permalink: online-help/reference-health-all-clusters-view.html 
+sidebar: sidebar 
+keywords:  
+summary: 'In der Ansicht „Systemzustand: Alle Cluster“ können Sie die Integritätsinformationen zu den von Ihnen überwachten Clustern anzeigen.' 
+---
+= Gesundheit: Alle Cluster-Ansicht
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+In der Ansicht „Systemzustand: Alle Cluster“ können Sie die Integritätsinformationen zu den von Ihnen überwachten Clustern anzeigen.
+
+Standardmäßig werden Objekte auf den Ansichtsseiten nach Wichtigkeit des Ereignisses sortiert. Objekte mit kritischen Ereignissen werden zuerst aufgeführt und Objekte mit Warnmeldungen werden als zweites aufgeführt. Dies bietet eine unmittelbare visuelle Darstellung von Problemen, die behoben werden müssen. Jedes Cluster im Cluster-Grid verfügt über Links zu ONTAP System Manager. Über diesen Link können Sie dieselbe Schutzbeziehung in ONTAP System Manager anzeigen. Die Menüoption *View in System Manager* steht als Link zur Verfügung. Der Link *View in System Manager* ist auch auf der Detailseite zu Clusterstatus, Leistung und Kapazität verfügbar.
+
+Mit den Steuerelementen oben auf der Seite können Sie eine bestimmte Ansicht auswählen (für Zustand, Leistung, Kapazität usw.). Führen Sie Suchen durch, um bestimmte Objekte zu finden, erstellen und anwenden Sie Filter, um die Liste der angezeigten Daten einzugrenzen, Spalten auf der Seite hinzuzufügen/zu entfernen/neu zu ordnen, Und exportieren Sie die Daten auf der Seite in A `.csv`, `.pdf`, Oder `.xlsx` Datei: Nachdem Sie die Seite angepasst haben, können Sie die Ergebnisse als benutzerdefinierte Ansicht speichern und anschließend einen Bericht dieser Daten erstellen und regelmäßig per E-Mail senden.
+
+Sie können die Schaltfläche * Cluster-Setup* verwenden, um die zu Active IQ Unified Manager hinzufügen oder Cluster zu ändern. Alle in Active IQ Unified Manager verfügbaren Cluster sind aufgeführt. Über den einzelnen Cluster-Namen-Link kann die ONTAP System Manager Seite aufgerufen werden, um die Navigation zu vereinfachen.
+
+Sie können einen Cluster mit einer vordefinierten Anmerkung verknüpfen, indem Sie die Schaltfläche *Annotate* verwenden.
+
+Siehe xref:reference-cluster-health-fields.adoc[Felder für den Cluster-Systemzustand] Für Beschreibungen aller Felder auf dieser Seite.

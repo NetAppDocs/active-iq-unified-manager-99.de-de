@@ -1,0 +1,68 @@
+---
+permalink: health-checker/task-restoring-a-snapshot-backup.html 
+sidebar: sidebar 
+keywords: restore,linux 
+summary: Im Falle eines Datenverlustes oder einer Beschädigung von Daten können Sie Unified Manager in den vorherigen stabilen Zustand bei minimalem Datenverlust wiederherstellen. Sie können die Snapshot-Datenbank von Unified Manager mithilfe der Wartungskonsole auf einem lokalen oder Remote-Betriebssystem wiederherstellen. 
+---
+= Wiederherstellen eines Snapshot Backups für Linux und Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Im Falle eines Datenverlustes oder einer Beschädigung von Daten können Sie Unified Manager in den vorherigen stabilen Zustand bei minimalem Datenverlust wiederherstellen. Sie können die Snapshot-Datenbank von Unified Manager mithilfe der Wartungskonsole auf einem lokalen oder Remote-Betriebssystem wiederherstellen.
+
+
+
+== Bevor Sie beginnen
+
+* Sie müssen über die Stammbenutzeranmeldeinformationen für den Linux-Host und die Administratorrechte für Windows-Hostcomputer verfügen, auf dem Unified Manager installiert ist.
+* Sie müssen über eine Benutzer-ID und ein Passwort verfügen, um sich bei der Wartungskonsole des Unified Manager-Servers anzumelden.
+
+
+
+
+== Über diese Aufgabe
+
+Die Wiederherstellungsfunktion ist plattformspezifisch und versionsspezifisch. Sie können ein Unified Manager-Backup nur auf derselben Version von Unified Manager wiederherstellen.
+
+
+
+== Schritte
+
+. Stellen Sie eine Verbindung mit der IP-Adresse oder dem vollqualifizierten Domänennamen des Unified Manager Systems her.
+
+
+[cols="2*"]
+|===
+| *Linux* | Sichere Shell 
+
+
+ a| 
+*Windows*
+ a| 
+Power Shell
+
+|===
+. Melden Sie sich beim System mit dem Wartungs-Benutzer (umadmin) und dem Passwort an.
+. Geben Sie den Befehl ein `maintenance_console` Und drücken Sie die Eingabetaste.
+. Geben Sie in der Wartungskonsole *Hauptmenü* die Nummer für die Option *Backup Restore* ein.
+. Geben Sie die Nummer für *Backup und Restore mit NetApp Snapshot* ein.
++
+Wenn Sie eine Wiederherstellung auf einem neuen Server durchführen, starten Sie nach der Installation von Unified Manager die UI nicht oder konfigurieren Sie nach Abschluss der Installation keine Cluster, Benutzer oder Authentifizierungseinstellungen. Geben Sie die Nummer für *Configure NetApp Snapshot Backup* ein und konfigurieren Sie die Snapshot Backup Einstellungen so, wie sie auf dem ursprünglichen System konfiguriert wurden.
+
+. Geben Sie die Nummer für *Restore mit NetApp Snapshot* ein.
+. Wählen Sie die Snapshot-Sicherungsdatei aus, die Sie wiederherstellen möchten, und drücken Sie *Enter*.
+. Melden Sie sich nach Abschluss des Wiederherstellungsprozesses in der Benutzeroberfläche von Unified Manager an.
+
+
+
+
+== Nachdem Sie fertig sind
+
+Wenn der Workflow Automation-Server nach der Wiederherstellung des Backups nicht funktioniert, führen Sie die folgenden Schritte aus:
+
+. Ändern Sie auf dem Workflow Automation Server die IP-Adresse des Unified Manager-Servers, um auf die neueste Maschine zu verweisen.
+. Setzen Sie auf dem Unified Manager-Server das Datenbankkennwort zurück, wenn die Erfassung in Schritt 1 fehlschlägt.
+

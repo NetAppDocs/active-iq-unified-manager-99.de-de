@@ -1,0 +1,22 @@
+---
+permalink: online-help/reference-health-all-aggregates-view.html 
+sidebar: sidebar 
+keywords:  
+summary: 'In der Ansicht „Systemzustand: Alle Aggregate“ werden Informationen über die überwachten Aggregate angezeigt. Darüber hinaus können Sie die Schwellenwerteinstellungen anzeigen und ändern.' 
+---
+= Systemzustand: Alle Aggregate Ansicht
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+In der Ansicht „Systemzustand: Alle Aggregate“ werden Informationen über die überwachten Aggregate angezeigt. Darüber hinaus können Sie die Schwellenwerteinstellungen anzeigen und ändern.
+
+Standardmäßig werden Objekte auf den Ansichtsseiten nach Wichtigkeit des Ereignisses sortiert. Objekte mit kritischen Ereignissen werden zuerst aufgeführt und Objekte mit Warnmeldungen werden als zweites aufgeführt. Dies bietet eine unmittelbare visuelle Darstellung von Problemen, die behoben werden müssen. Jedes Aggregat im Aggregat-Grid verfügt über Links zu ONTAP System Manager. Über diesen Link können Sie dieselbe Schutzbeziehung in ONTAP System Manager anzeigen.
+
+Mit den Steuerelementen oben auf der Seite können Sie eine bestimmte Ansicht auswählen (für Zustand, Leistung, Kapazität usw.). Führen Sie Suchen durch, um bestimmte Objekte zu finden, erstellen und anwenden Sie Filter, um die Liste der angezeigten Daten einzugrenzen, Spalten auf der Seite hinzuzufügen/zu entfernen/neu zu ordnen, Und exportieren Sie die Daten auf der Seite in A `.csv`, `.pdf`, Oder `.xlsx` Datei: Nachdem Sie die Seite angepasst haben, können Sie die Ergebnisse als benutzerdefinierte Ansicht speichern und anschließend einen Bericht dieser Daten erstellen und regelmäßig per E-Mail senden.
+
+Mithilfe der Schaltfläche * Schwellenwert bearbeiten* können Sie die Einstellungen für Kapazitätsschwellenwerte für ein oder mehrere Aggregate anpassen.
+
+Siehe xref:reference-aggregate-health-fields.adoc[Felder für den Gesamtzustand] Für Beschreibungen aller Felder auf dieser Seite.

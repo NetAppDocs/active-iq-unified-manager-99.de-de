@@ -1,0 +1,101 @@
+---
+permalink: online-help/reference-qos-policy-group-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 'Die folgenden Felder sind auf der Seite „Performance: QoS Policy Groups“ verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.' 
+---
+= Felder für QoS-Richtliniengruppe
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die folgenden Felder sind auf der Seite „Performance: QoS Policy Groups“ verfügbar und können in benutzerdefinierten Ansichten und in Berichten verwendet werden.
+
+* *QoS Policy Group*
++
+Der Name der QoS-Richtliniengruppe.
+
++
+Bei NSLM (NetApp Service Level Manager) 1.3-Richtlinien, die in Unified Manager 9.7 oder höher importiert wurden, enthält der hier angezeigte Name den SVM-Namen sowie andere Informationen, die nicht dem Namen enthalten, als der Performance-Service-Levelin NSLM definiert wurde. Der Name „`NSLM_vs6_Performance_2_0`“ bedeutet beispielsweise, dass dies die vom NSLM systemdefinierte „`Performance`“ PSL-Richtlinie ist, die auf SVM „`vs6`“ mit einer erwarteten Latenz von „`2 ms/op`“ erstellt wurde.
+
+* * Cluster*
++
+Der Cluster, zu dem die QoS-Richtliniengruppe gehört. Sie können auf den Cluster-Namen klicken, um zur Detailseite des jeweiligen Clusters zu gelangen.
+
+* *Cluster-FQDN*
++
+Der vollständig qualifizierte Domänenname (FQDN) des Clusters.
+
+* *SVM*
++
+Die Storage Virtual Machine (SVM), der die QoS-Richtliniengruppe angehört. Sie können auf den SVM-Namen klicken, um zur Detailseite dieser SVM zu navigieren.
+
++
+[NOTE]
+====
+Dieses Feld ist leer, wenn die QoS-Richtlinie auf der Admin-SVM erstellt wurde, da dieser SVM-Typ für den Cluster steht.
+
+====
+* *Min. Durchsatz*
++
+Der minimale Durchsatz in IOPS, den die Richtliniengruppe garantiert bereitstellen wird.
+
++
+Für anpassungsfähige Richtlinien stellt dies die erwartete Mindestzahl an IOPS pro TB dar, die dem Volume oder der LUN zugewiesen ist. Grundlage dafür ist die zugewiesene Storage-Objektgröße.
+
+* *Maximaler Durchsatz*
++
+Der Durchsatz in IOPS und/oder MB/s, den die Richtliniengruppe nicht überschreiten darf. Wenn dieses Feld leer ist, bedeutet dies, dass die in ONTAP definierte maximale Anzahl unbegrenzt ist.
+
++
+Bei anpassungsfähigen Richtlinien stellt dies die maximal mögliche IOPS pro TB dar, die dem Volume oder LUN zugewiesen werden kann. Diese basieren entweder auf der Grundlage der _zugewiesenen_-Größe des Storage-Objekts oder der „_used_ size“ des Storage-Objekts.
+
+* *Absoluter Mindestwert für IOPS*
++
+Bei anpassungsfähigen Richtlinien ist dies der absolute IOPS-Mindestwert, der als Überschreiben verwendet wird, wenn die erwarteten IOPS kleiner als dieser Wert ist.
+
+* *Blockgröße*
++
+Die für die adaptive QoS-Richtlinie angegebene Blockgröße.
+
+* *Mindestzuweisung*
++
+Gibt an, ob „`zugewiesener Speicherplatz`“ oder „`genutzter Speicherplatz`“ verwendet wird, um den maximalen Durchsatz (Spitzenwert) IOPS zu ermitteln.
+
+* *Erwartete Latenz*
++
+Die erwartete durchschnittliche Latenz für Storage-Input/Output-Vorgänge
+
+* * Shared*
++
+Ob die in der Richtliniengruppe definierten Durchsatzwerte von herkömmlichen QoS-Richtlinien mehreren Objekten gemeinsam genutzt werden
+
+* *Assoziierte Objekte*
++
+Die Anzahl der Workloads, die der QoS-Richtliniengruppe zugewiesen werden.
+
+
+
+Klicken Sie auf die Schaltfläche erweitern (image:../media/chevron-down.gif[""]) Neben dem QoS Policy Group-Namen, um weitere Details über die Policy-Gruppe anzuzeigen.
+
+* *Zugewiesene Kapazität*
++
+Die Menge an Speicherplatz, die die Objekte in der QoS-Richtliniengruppe derzeit verwenden.
+
+* *Assoziierte Objekte*
++
+Die Anzahl der Workloads, die der QoS-Richtliniengruppe zugewiesen werden, getrennt in Volumes und LUNs.
+
++
+Sie können auf die Nummer klicken, um zu einer Seite zu navigieren, die weitere Details zu den ausgewählten Volumes oder LUNs enthält.
+
+* *Veranstaltungen*
++
+Wenn ein Objekt oder Objekte, das der QoS-Richtliniengruppe zugewiesen sind, eine Richtlinienverletzung durch QoS verursacht haben, wird durch das Symbol der Ereignisanzeige der Schweregrad (kritisch, Fehler oder Warnung) des Ereignisses identifiziert und eine Fehlermeldung angezeigt.
+
++
+Sie können auf die Nachricht klicken, um zur Seite Ereignisse zu navigieren, die gefiltert ist, um die an dem Ereignis beteiligten Objekte anzuzeigen.
+
+

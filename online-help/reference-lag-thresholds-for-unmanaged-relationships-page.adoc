@@ -1,0 +1,50 @@
+---
+permalink: online-help/reference-lag-thresholds-for-unmanaged-relationships-page.html 
+sidebar: sidebar 
+keywords:  
+summary: Auf der Seite „Beziehungsschwellenwerte“ können Sie globale lag-Warnung und Fehlerschwellenwerte für nicht gemanagte Schutzbeziehungen konfigurieren, damit Sie benachrichtigt werden und Maßnahmen ergreifen können, wenn Verzögerungen oder Schwellenwertfehler auftreten. Änderungen an diesen Einstellungen werden bei der nächsten geplanten Aktualisierung übernommen. 
+---
+= Seite „Beziehungsschwellenwerte“
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Auf der Seite „Beziehungsschwellenwerte“ können Sie globale lag-Warnung und Fehlerschwellenwerte für nicht gemanagte Schutzbeziehungen konfigurieren, damit Sie benachrichtigt werden und Maßnahmen ergreifen können, wenn Verzögerungen oder Schwellenwertfehler auftreten. Änderungen an diesen Einstellungen werden bei der nächsten geplanten Aktualisierung übernommen.
+
+Sie müssen über die Rolle „Anwendungsadministrator“ oder „Speicheradministrator“ verfügen.
+
+Ereignisse werden erzeugt, wenn ein Schwellenwert für Volumes oder Storage-VMs erreicht wird. Sie können für solche Ereignisse Korrekturmaßnahmen ergreifen. Die Ereignisse werden jetzt für Storage VM-Beziehungen erhöht, sind aber für zusammengehörige Beziehungen innerhalb der Disaster-Recovery-Konfiguration für Storage VM blockiert. Dadurch wird verhindert, dass zu viele Ereignisse für eine Beziehung aufgeworfen werden. Verzögerungsschwellenwerte für nicht verwaltete Beziehungen sind standardmäßig aktiviert und werden auch für Storage-VMs bereitgestellt.
+
+Der lag-Schwellenwert gibt einen Prozentsatz an, der die Verzögerungszeit nicht überschreiten darf. Mit einem Beispiel von einer Stunde, wenn der lag-Schwellenwert als 150 % definiert ist, dann erhalten Sie ein Ereignis, wenn die Verzögerungszeit mehr als 1.5 Stunden beträgt.
+
+
+
+== Verzögerungsschwellenwerte für Bereich „nicht verwaltete Beziehungen“
+
+Im Bereich „lag“ können Sie für die folgenden Bedingungen unverwaltete Beziehungsverzögerungsschwellen festlegen:
+
+* *Warnung*
++
+Gibt den Prozentsatz an, bei dem die Verzögerungsdauer dem lag-Warnungsschwellenwert entspricht oder überschreitet:
+
++
+** Standardwert: 150 Prozent
+** Ereignisse generiert: SnapMirror Beziehung Verzögerung Warnung oder SnapVault Beziehung Verzögerung Warnung
+** Ereignis Schweregrad: Warnung
+
+
+* *Fehler*
++
+Gibt den Prozentsatz an, bei dem die Verzögerungsdauer gleich oder größer als der lag-Fehlerschwellenwert ist:
+
++
+** Standardwert: 250 Prozent
+** Erzeugte Ereignisse: SnapMirror Beziehung Verzögerung Fehler oder SnapVault Beziehung Verzögerung Fehler
+** Ereignis Schweregrad: Fehler
+
+
+
+
+Außerdem können Sie die Auslösung eines Warn- oder Fehlerereignisses von einem beliebigen lag-Schwellenwert deaktivieren, indem Sie das Kontrollkästchen neben aktiviert deaktivieren.

@@ -1,0 +1,30 @@
+---
+permalink: online-help/task-viewing-alerts.html 
+sidebar: sidebar 
+keywords:  
+summary: Sie können die Liste der Warnungen, die für verschiedene Ereignisse erstellt wurden, auf der Seite „Alarm-Setup“ anzeigen. Zudem können Sie Eigenschaften von Warnmeldungen anzeigen, z. B. Alarmbeschreibung, Benachrichtigungsmethode und -Häufigkeit, Ereignisse, die die Warnung auslösen, E-Mail-Empfänger der Warnmeldungen und betroffene Ressourcen wie Cluster, Aggregate und Volumes. 
+---
+= Anzeigen von Meldungen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können die Liste der Warnungen, die für verschiedene Ereignisse erstellt wurden, auf der Seite „Alarm-Setup“ anzeigen. Zudem können Sie Eigenschaften von Warnmeldungen anzeigen, z. B. Alarmbeschreibung, Benachrichtigungsmethode und -Häufigkeit, Ereignisse, die die Warnung auslösen, E-Mail-Empfänger der Warnmeldungen und betroffene Ressourcen wie Cluster, Aggregate und Volumes.
+
+
+
+== Bevor Sie beginnen
+
+Sie müssen über die Rolle „Operator“, „Application Administrator“ oder „Storage Administrator“ verfügen.
+
+
+
+== Schritte
+
+. Klicken Sie im linken Navigationsbereich auf *Storage-Management* > *Alarm-Setup*.
++
+Die Liste der Warnungen wird auf der Seite „Alarmkonfiguration“ angezeigt.
+
+
