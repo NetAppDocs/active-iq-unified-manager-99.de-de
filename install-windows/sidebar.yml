@@ -8,8 +8,6 @@ entries:
   entries:
   - title: Was macht der Unified Manager Server
     url: "/install-windows/concept-what-the-unified-manager-server-does.html"
-  - title: Active IQ Unified Manager Produktdokumentation
-    url: "/install-windows/reference-oncommand-unified-manager-product-documentation.html"
   - title: Überblick über die Installationsreihenfolge
     url: "/install-windows/concept-overview-of-the-installation-sequence-um.html"
 - title: Anforderungen für die Installation von Unified Manager

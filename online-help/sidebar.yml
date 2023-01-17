@@ -1534,12 +1534,3 @@ entries:
     url: "/online-help/reference-user-not-found.html"
   - title: Problem beim Hinzufügen von LDAP über andere Authentifizierungsdienste
     url: "/online-help/reference-issue-with-adding-ldap-using-other-authentication-services.html"
-- title: Copyright, Markenrecht und maschinelle Übersetzung
-  url: "/online-help/reference-copyright-and-trademark.html"
-  entries:
-  - title: Urheberrecht
-    url: "/online-help/reference-copyright.html"
-  - title: Marke
-    url: "/online-help/reference-trademark.html"
-  - title: Maschinelle Übersetzung
-    url: "/online-help/generic-machine-translation-disclaimer.html"

@@ -8,8 +8,6 @@ entries:
   entries:
   - title: Was macht der Unified Manager Server
     url: "/install-linux/concept-what-the-unified-manager-server-does.html"
-  - title: Active IQ Unified Manager Produktdokumentation
-    url: "/install-linux/reference-oncommand-unified-manager-product-documentation.html"
   - title: Überblick über die Installationsreihenfolge
     url: "/install-linux/concept-overview-of-the-installation-sequence-um.html"
 - title: Anforderungen für die Installation von Unified Manager

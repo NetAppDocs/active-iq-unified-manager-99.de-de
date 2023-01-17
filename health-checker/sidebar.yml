@@ -10,8 +10,6 @@ entries:
   - title: Unified Manager-Schnittstellen, die zum Management des Zustands des Storage-Systems
       verwendet werden
     url: "/health-checker/concept-unified-manager-interfaces-used-to-manage-storage-system-health.html"
-  - title: Active IQ Unified Manager Produktdokumentation
-    url: "/health-checker/reference-oncommand-unified-manager-product-documentation.html"
 - title: Gemeinsame Workflows und Aufgaben im Zusammenhang mit Unified Manager
   url: "/health-checker/concept-common-unified-manager-administrative-workflows-and-tasks.html"
   entries:
