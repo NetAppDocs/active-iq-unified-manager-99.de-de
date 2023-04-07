@@ -15,9 +15,6 @@ Auf der Seite Volume/Health Details können Sie ausführliche Informationen zu e
 
 Sie müssen über die Rolle „Anwendungsadministrator“ oder „Speicheradministrator“ verfügen.
 
-* <<reference-health-volume-details-page,Bereich „Verwandte Gruppen“>>
-
-
 
 
 == Befehlsschaltflächen

@@ -93,7 +93,7 @@ Wenn Sie für Red hat Enterprise Linux 8 interne Repositorys mit JDK 11 - OpenJD
 ----
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
 ----
-. Sie müssen ausführen <<STEP_EFB6C72C92504ED68EFE5AE44E710D98,Schritt 7>>_Nur_ wenn Ihr System nicht mit dem Internet verbunden ist und Sie die für Ihre Installation erforderlichen Pakete manuell herunterladen müssen. Wenn Ihr System über einen Internetzugang verfügt und alle benötigten Pakete verfügbar sind, gehen Sie zu <<STEP_84638F64625B460D9B39BB07971C2480,Schritt 8>>. Bei Systemen, die nicht mit dem Internet verbunden sind oder die Red hat Enterprise Linux-Repositories nicht verwenden, führen Sie die folgenden Schritte aus, um festzustellen, ob erforderliche Pakete fehlen und diese Pakete anschließend herunterladen:
+. Sie müssen Schritt 7 _Only_ ausführen, wenn Ihr System nicht mit dem Internet verbunden ist und Sie die für Ihre Installation erforderlichen Pakete manuell herunterladen müssen. Wenn Ihr System über einen Internetzugang verfügt und alle erforderlichen Pakete verfügbar sind, fahren Sie mit Schritt 8 fort. Bei Systemen, die nicht mit dem Internet verbunden sind oder die Red hat Enterprise Linux-Repositories nicht verwenden, führen Sie die folgenden Schritte aus, um festzustellen, ob erforderliche Pakete fehlen und diese Pakete anschließend herunterladen:
 +
 .. Zeigen Sie auf dem System, auf dem Sie Unified Manager installieren, die Liste der verfügbaren und nicht verfügbaren Pakete an: `yum install netapp-um<version\>.x86_64.rpm --assumeno`
 +

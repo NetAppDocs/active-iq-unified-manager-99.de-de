@@ -8,6 +8,9 @@ summary: Kurzanleitung für Unified Manager auf der Linux-Plattform.
 :allow-uri-read: 
 
 
+[role="lead"]
+Sie können das Installationspaket herunterladen und Unified Manager installieren, um Probleme mit der Storage-Kapazität, Verfügbarkeit, Performance und Datensicherung zu überwachen und zu beheben.
+
 
 
 == Systemanforderungen

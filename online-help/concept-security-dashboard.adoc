@@ -27,8 +27,8 @@ Die Sicherheitskriterien für Ihre ONTAP Cluster, Storage-VMs und Volumes werden
 Wenn Sie diese Funktion aktivieren, können Sie die Einstellungen für das Compliance-Monitoring entsprechend Ihrer ONTAP Umgebung anpassen. Diese Einstellungen lösen die relevanten Sicherheitsereignisse und Verwaltungsaktionen aus. Führen Sie hierzu folgende Schritte aus:
 
 . Klicken Sie Auf *Anpassen*. Das Pop-up-Fenster „Einstellungen für das Sicherheits-Dashboard anpassen“ wird angezeigt.
-. Um die benutzerdefinierten Einstellungen für Ihre ONTAP-Cluster zu aktivieren oder zu deaktivieren, erweitern Sie die Auswahl *Allgemeine Einstellungen* für Cluster. Weitere Informationen zu den Optionen zur Anpassung der Cluster-Compliance finden Sie unter link:reference-cluster-compliance-categories.adoc["*Cluster Compliance Kategorien*"].
-. Um die benutzerdefinierten Einstellungen für Ihre Speicher-VMs zu aktivieren oder zu deaktivieren, erweitern Sie die Auswahl *Allgemeine Einstellungen* für Storage-VMs. Weitere Informationen zu den Optionen zur Anpassung der Storage VM Compliance finden Sie unter link:reference-svm-compliance-categories.adoc["Compliance-Kategorien für Storage-VMs"].
+. Um die benutzerdefinierten Einstellungen für Ihre ONTAP-Cluster zu aktivieren oder zu deaktivieren, erweitern Sie die Auswahl *Allgemeine Einstellungen* für Cluster. Weitere Informationen zu den Optionen zur Anpassung der Cluster-Compliance finden Sie unter xref:reference-cluster-compliance-categories.adoc[Cluster-Compliance-Kategorien].
+. Um die benutzerdefinierten Einstellungen für Ihre Speicher-VMs zu aktivieren oder zu deaktivieren, erweitern Sie die Auswahl *Allgemeine Einstellungen* für Storage-VMs. Weitere Informationen zu den Optionen zur Anpassung der Storage VM Compliance finden Sie unter xref:reference-svm-compliance-categories.adoc[Compliance-Kategorien für Storage-VMs].
 . Sie können außerdem angeben, ob HTTPS-Transport zum Senden von AutoSupport Meldungen aus ONTAP verwendet wird.
 . Wenn Sie die Authentifizierungseinstellungen aktivieren, werden Warnmeldungen von Unified Manager für den standardmäßigen ONTAP-Administratorbenutzer ausgegeben.
 

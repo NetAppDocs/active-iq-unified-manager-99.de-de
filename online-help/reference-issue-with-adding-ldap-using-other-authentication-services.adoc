@@ -10,8 +10,7 @@ summary:
 :imagesdir: ../media/
 
 
-* *Ausgabe*
-+
+[role="lead"]
 Wenn Sie andere als den Authentifizierungsdienst auswählen, behalten Benutzer und GroupObjectClass die Werte aus der zuvor ausgewählten Vorlage bei. Wenn der LDAP-Server nicht die gleichen Werte verwendet, kann der Vorgang fehlschlagen.
 
 * *Ursache*

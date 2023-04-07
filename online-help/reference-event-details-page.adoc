@@ -32,7 +32,7 @@ In manchen Fällen wird in der Ereignisbeschreibung ein Grund für das ausgelös
 Für dynamische Performance-Ereignisse werden in diesem Abschnitt Symbole angezeigt, die die logischen und physischen Komponenten des Clusters darstellen. Wenn eine Komponente einen Konflikt hat, ist ihr Symbol eingekreist und rot markiert.
 
 +
-Siehe link:concept-cluster-components-and-why-they-can-be-in-contention.adoc["Cluster-Komponenten und warum sie über Konflikte verfügen können"] Für eine Beschreibung der hier angezeigten Komponenten.
+Siehe xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[Cluster-Komponenten und warum sie über Konflikte verfügen können] Für eine Beschreibung der hier angezeigten Komponenten.
 
 
 

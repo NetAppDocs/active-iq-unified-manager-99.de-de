@@ -44,7 +44,7 @@ Wenn die Gültigkeit des Zertifikats, für das ein CSR erstellt wurde, mehr als 
 . Klicken Sie im angezeigten Dialogfeld auf *Datei auswählen...*, um die hochzuladende Datei zu suchen.
 . Wählen Sie die Datei aus und klicken Sie dann auf *Installieren*, um die Datei zu installieren.
 +
-link:concept-installing-a-https-certificate-generated-using-external-tools.dita["Konzept-Installation-a-https-Zertifikat-generiert-mit-externen-Tools.dita"]
+Weitere Informationen finden Sie unter link:concept-installing-a-https-certificate-generated-using-external-tools.html["Installieren eines HTTPS-Zertifikats, das mit externen Tools generiert wurde"]
 
 
 

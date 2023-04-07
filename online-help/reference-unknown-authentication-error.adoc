@@ -10,8 +10,7 @@ summary:
 :imagesdir: ../media/
 
 
-* *Ausgabe*
-+
+[role="lead"]
 Wenn Sie einen Authentifizierungsvorgang wie das Hinzufügen, Bearbeiten, Löschen oder Testen von Remote-Benutzern oder -Gruppen durchführen, wird möglicherweise die folgende Fehlermeldung angezeigt: `Unknown authentication error`.
 
 * *Ursache*

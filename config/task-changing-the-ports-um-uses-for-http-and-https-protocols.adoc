@@ -55,4 +55,4 @@ Sie werden gefragt, ob Sie die Ports ändern und Unified Manager jetzt neu start
 
 == Ergebnisse
 
-Nach dieser Änderung müssen Benutzer die neue Portnummer in der URL angeben, um auf die Web-UI von Unified Manager zuzugreifen, z. B. _https://host.company.com:1234_, _https://12.13.14.15:1122_ oder _https://[2001:db8:0:1]:2123_.
+Nach dieser Änderung müssen Benutzer die neue Portnummer in der URL angeben, um auf die Web-UI von Unified Manager zuzugreifen, z. B. +https://host.company.com:1234+, +https://12.13.14.15:1122+ oder +https://[2001:db8:0:1]:2123+.
