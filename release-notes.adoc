@@ -13,4 +13,4 @@ summary: Bietet eine Zusammenfassung der neuen Funktionen, Einschränkungen und 
 [role="lead"]
 Bietet eine Zusammenfassung der neuen Funktionen, Einschränkungen und bekannten Probleme für Active IQ Unified Manager 9.9.
 
-Weitere Informationen finden Sie im https://library.netapp.com/ecm/ecm_download_file/ECMLP2875768["Versionshinweise zu Active IQ Unified Manager"^].
+Weitere Informationen finden Sie im https://["Versionshinweise zu Active IQ Unified Manager"^].

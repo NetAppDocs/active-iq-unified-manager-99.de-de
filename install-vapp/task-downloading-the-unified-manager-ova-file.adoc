@@ -29,7 +29,7 @@ Die Installationsdatei ist ein `OVA` Datei, die die in einer virtuellen Applianc
 
 == Schritte
 
-. Melden Sie sich auf der NetApp Support Site an und navigieren Sie zur Seite *Download* für Unified Manager: https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp Support Website"]
+. Melden Sie sich auf der NetApp Support Site an und navigieren Sie zur Seite *Download* für Unified Manager: https://["NetApp Support Website"]
 . Wählen Sie die erforderliche Version von Unified Manager aus, und akzeptieren Sie die Endbenutzer-Lizenzvereinbarung (Endbenutzer License Agreement, EULA).
 . Laden Sie herunter, und speichern Sie die `OVA` Installieren Sie die Datei für VMware vSphere in einem lokalen Verzeichnis oder Netzwerkverzeichnis, auf das Ihr vSphere-Client zugreifen kann.
 . Überprüfen Sie die Prüfsumme, um sicherzustellen, dass die Software ordnungsgemäß heruntergeladen wurde.

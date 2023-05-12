@@ -85,4 +85,4 @@ Auf der Anzeige wird der Name der FabricPool-Tiering-Richtlinie angezeigt, die d
 
 Weitere Informationen zu FabricPool-Aggregaten finden Sie im Power Guide_ „ _ONTAP 9 Festplatten und Aggregate“.
 
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-psmg/home.html["ONTAP 9 Festplatten und Aggregate Power Guide"]
+http://["ONTAP 9 Festplatten und Aggregate Power Guide"]
