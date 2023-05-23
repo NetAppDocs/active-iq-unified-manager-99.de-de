@@ -30,7 +30,7 @@ xref:concept-managing-and-monitoring-metrocluster-configurations.adoc[Verwalten 
 
 * Die erforderliche Einrichtung muss auf ONTAP und vCenter Server abgeschlossen sein. Weitere Informationen finden Sie in der Dokumentation zu ONTAP und vCenter.
 +
-https://["ONTAP 9 Dokumentationszentrum"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 Dokumentationszentrum"]
 
 
 
@@ -63,7 +63,7 @@ Im Falle einer Wiederherstellung sollten die Daten zwischen den Volumes synchron
 Informationen zum Setup finden Sie in der Dokumentation zu ONTAP und vCenter Server.
 
 +
-https://["ONTAP 9 Dokumentationszentrum"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 Dokumentationszentrum"]
 
 
 

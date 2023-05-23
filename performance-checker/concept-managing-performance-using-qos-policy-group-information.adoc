@@ -15,4 +15,4 @@ Mit Unified Manager können Sie die QoS-Richtliniengruppen (Quality of Service) 
 
 Weitere Informationen zum Anpassen der QoS-Einstellungen finden Sie im Power Guide _ONTAP 9 zur Leistungsüberwachung_.
 
-http://["ONTAP 9 Leistungsüberwachung – Stromversorgungshandbuch"]
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html["ONTAP 9 Leistungsüberwachung – Stromversorgungshandbuch"]

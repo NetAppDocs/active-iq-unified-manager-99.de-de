@@ -44,7 +44,7 @@ Folgende Sonderzeichen sind erlaubt: ~ ! @ # * - ? . + { }
 == Schritte
 
 . Melden Sie sich unter Windows mit dem lokalen Standardkonto an.
-. Melden Sie sich auf der NetApp Support Site an und navigieren Sie zur Seite *Download* für Unified Manager: https://["NetApp Support Website"]
+. Melden Sie sich auf der NetApp Support Site an und navigieren Sie zur Seite *Download* für Unified Manager: https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp Support Website"]
 . Wählen Sie die erforderliche Version von Unified Manager aus, und akzeptieren Sie die Endbenutzer-Lizenzvereinbarung (Endbenutzer License Agreement, EULA).
 . Laden Sie die Installationsdatei für Unified Manager Windows in ein Zielverzeichnis auf dem Windows-System herunter.
 . Navigieren Sie zum Verzeichnis, in dem sich die Installationsdatei befindet.

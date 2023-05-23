@@ -103,7 +103,7 @@ Anzahl der Speicher-Workloads, denen das PSL zugewiesen wurde.
 |===
 Informationen darüber, wie die IOPS-Spitzenwerte und die erwarteten IOPS beim Erreichen einer konsistenten, differenzierten Performance auf ONTAP Clustern helfen, finden Sie im folgenden KB-Artikel:
 
-https://["Was ist Performance-Budgetierung?"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["Was ist Performance-Budgetierung?"]
 
 Beachten Sie, dass wenn Workloads den erwarteten Latenzwert für 30 % der Zeit während der vorherigen Stunde überschreiten, generiert Unified Manager eines der folgenden Ereignisse, um Sie über ein potenzielles Performance-Problem zu informieren: „`Workload Volume Latency Threshold Indered as defined by Performance Service Level Policy`“ oder „`Workload LUN Latency Threshold Indered by Performance Service Level Policy`“. Vielleicht möchten Sie den Workload analysieren, um zu sehen, was zum möglicherweise die höheren Latenzwerte führt.
 
