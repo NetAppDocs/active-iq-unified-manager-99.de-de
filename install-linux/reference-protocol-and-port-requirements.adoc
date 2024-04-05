@@ -172,40 +172,49 @@ LDAPS
 636
  a| 
 Wird für sichere LDAP-Kommunikation verwendet.
+
+
+
  a| 
 Mailserver
-
-
-
  a| 
 SMTP
  a| 
 25
  a| 
 Wird zum Senden von Benachrichtigungs-E-Mails verwendet.
+
+
+
  a| 
 SNMP-Trap-Absender
-
-
-
  a| 
 SNMPv1 oder SNMPv3
  a| 
 162/UDP
  a| 
 Wird zum Senden von SNMP-Traps für Warnmeldungen verwendet.
+
+
+
  a| 
 Server für externen Datenprovider
-
-
-
  a| 
 TCP
  a| 
 2003
  a| 
 Dient zum Senden von Performance-Daten an einen externen Datenanbieter wie Graphite.
+
+
+
  a| 
 NTP-Server
+ a| 
+NTP
+ a| 
+123/UDP
+ a| 
+Wird verwendet, um die Zeit auf dem Unified Manager-Server mit einem externen NTP-Zeitserver zu synchronisieren. (Nur VMware Systeme)
 
 |===
