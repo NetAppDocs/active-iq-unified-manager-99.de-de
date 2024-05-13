@@ -2821,7 +2821,6 @@
   <block id="2fb316da76096cad55a3dd4bf16886ad" category="list-text">Klicken Sie auf das Symbol Weitere <block ref="0e5533af257bb4cee98a9136d3bb1c63" category="inline-image-macro-rx" type="image"></block> Für den Zeitplan, den Sie ändern möchten.</block>
   <block id="adff6885d0c25b63e9c076fa5bfe2ac8" category="list-text">Sie können die Liste *Terminplanname*, *Empfänger*, *Frequenz* und *Format* für den Berichtsplan ändern.</block>
   <block id="3c089aca469ff81256c133ec51b447ce" category="list-text">Wenn Sie fertig sind, klicken Sie auf das Häkchen, um Ihre Änderungen zu speichern.</block>
-  <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">Dokumentation für Active IQ Unified Manager, AIQUM Dokumentation, um Dokumentation</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">Active IQ Unified Manager-Dokumentation</block>
   <block id="38e6765f489199cbac8d654040013a22" category="doc">Kurzanleitung für Linux-Installationen</block>
   <block id="a165ede2e82fd84f39f81e1ae64211f7" category="list-text">Betriebssystem: Red hat Enterprise Linux und CentOS Version 7.x und 8.x basierend auf x86_64 Architektur, installiert mit der Basis-Umgebung „Server mit GUI“ aus der Software-Auswahl-Option des OS-Installers</block>
@@ -13100,4 +13099,20 @@
   <block id="5c54cb8f927a6c5a90622e1c7bd0bda5" category="paragraph">NTP</block>
   <block id="4a8598febd97e32d0698051cd71f02fa" category="paragraph">123/UDP</block>
   <block id="cb2a1ba65000d6677f2856e06530ac31" category="paragraph">Wird verwendet, um die Zeit auf dem Unified Manager-Server mit einem externen NTP-Zeitserver zu synchronisieren. (Nur VMware Systeme)</block>
+  <block id="67fde88ecdbd1fc85837595186b984a3" category="sidebar">Mit Active IQ Unified Manager (Unified Manager und früher OnCommand Unified Manager) können Sie den Zustand und die Performance Ihrer ONTAP Storage-Systeme über eine einzige Benutzeroberfläche überwachen und managen. Diese Dokumentationsbibliothek enthält Informationen zu Version 9.9.</block>
+  <block id="bd37abac39311a4e4bf00abc8bea791a" category="sidebar">Dokumentation für Active IQ Unified Manager 9.9.</block>
+  <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">Versionshinweise</block>
+  <block id="828adfb3faf6bb0d6a86602f92d97f36" category="sidebar">Installation und Konfiguration von Unified Manager</block>
+  <block id="e53d36a21edd215027333eb7ea60fbc1" category="sidebar">Installation und Upgrade auf VMware vSphere Systemen</block>
+  <block id="e16bdcc955b9441255836a75b797d710" category="sidebar">Installation und Upgrade auf Linux-Systemen</block>
+  <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">Installation und Upgrade auf Windows-Systemen</block>
+  <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">Konfiguration Von Unified Manager</block>
+  <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">Performance Monitoring</block>
+  <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">Performance-Schwellenwerte</block>
+  <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">Cluster-Performance</block>
+  <block id="13b1a36194bc49ac73c5077e1c1f6dd7" category="sidebar">QoS-Richtliniengruppe</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Mehr Ressourcen</block>
+  <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager Videos</block>
+  <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager Blogs</block>
+  <block id="c0fd3a67a0f9d526734eae8cf8142cb4" category="sidebar">Dokumentation für die neueste Version von Active IQ Unified Manager</block>
 </blocks>
